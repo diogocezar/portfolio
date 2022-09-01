@@ -1,0 +1,17 @@
+{
+  "name": "volkswagen-acessorios",
+  "version": "0.0.1",
+  "private": false,
+  "description": "Este projeto define a estrutura HTML + CSS e JavaScript do Projeto Acessórios Volkswagen.",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Diogo Cezar <diogo@diogocezar.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-cssmin": "^0.1.7",
+    "gulp-uglify": "0.3.1"
+  }
+}

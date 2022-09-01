@@ -1,0 +1,67 @@
+@media print{
+    body
+    {
+      margin: 10mm 10mm 10mm 10mm;
+    }
+    nav{
+        display:none;
+    }
+    #minha-lista {
+        margin-top: 10px;
+        padding-bottom: 10px;
+        background-color: transparent;
+    }
+    #minha-lista .row-top {
+        margin-top: 0px;
+    }
+    .btn-minha-lista, .btn-orcamento{
+        display: none;
+    }
+    #minha-lista h2 {
+        font-size: 36pt;
+    }
+    .row-acessorios{
+        width:100%;
+    }
+    .col-lg-3{
+        width: 50%;
+        padding: 0;
+        margin-bottom: 15px;
+    }
+    .img-acessorio {
+        margin: 0 auto;
+        position: relative;
+        float: left;
+        width: 100%;
+    }
+    .bg-gray-1 {
+        background-color: transparent;
+    }
+    .hover-me {
+        position: relative;
+        float: left;
+        width: 35%;
+        height: 100%;
+        cursor: pointer;
+    }
+    #acessorios h4, h5, h6 {
+        font-size: 12pt!important;
+        font-family: 'VWHeadlineOT-Book';
+        position: relative;
+        float: left;
+        width: 65%;
+        margin-top: 0px!important;
+        margin-bottom: 0px!important;
+        padding-left: 10px!important;
+    }
+    #acessorios h4 {
+        font-size: 14pt!important;
+        margin-bottom: 10px!important;
+    }
+    #acessorios-originais, footer{
+        display: none;
+    }
+    #acessorios .row-acessorios {
+        margin: 0px!important;
+    }
+}

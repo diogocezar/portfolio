@@ -1,0 +1,99 @@
+/* Carros Lista */
+
+#carros-lista{
+	margin-top: 100px;
+	background-color: #f0f5f6;
+	padding-bottom: 100px;
+}
+
+#carros-lista h2{
+	text-align: center;
+	text-transform: none;
+	margin-top: 100px;
+	margin-bottom: 10px;
+	font-family: 'VWHeadlineOT-Black';
+	font-size: 58pt;
+}
+
+#carros-lista h3 {
+    text-align: center;
+    text-transform: none;
+    margin-bottom: 100px;
+    font-family: 'VWHeadlineOT-Book';
+}
+
+#carros-lista h4 {
+    margin-top: 30px;
+    margin-bottom: 50px;
+    text-align: center;
+    color: #000;
+    font-family: 'VWHeadlineOT-Semibold';
+    font-size: 16pt;
+}
+
+#carros-lista .row-lista-carros{
+	margin-top: 50px;
+}
+
+#carros-lista img {
+    margin: 0 auto;
+    transition: all 0.5s ease 0s!important;
+    width: 200px;
+}
+
+#carros-lista img:hover {
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
+	filter: alpha(opacity=90);
+	-moz-opacity: 0.9;
+	-khtml-opacity: 0.9;
+	opacity: 0.9;
+	transform: scale(0.95,0.95);
+}
+
+/* Responsive Adjustments */
+
+@media screen and (max-width: 1366px){
+    #carros-lista {
+        margin-top: 70px;
+    }
+}
+
+@media screen and (max-width: 1366px){
+	#carros-lista h2 {
+	    font-size: 40pt;
+	}
+	#carros-lista h3 {
+		font-size: 16pt;
+	}
+}
+
+@media screen and (max-width: 1024px){
+	#carros-lista{
+		margin-top: 50px;
+	}
+}
+
+@media screen and (max-width: 768px){
+	#carros-lista h2 {
+	    text-align: center;
+	    text-transform: none;
+	    margin-top: 30px;
+	    margin-bottom: 10px;
+	    font-family: 'VWHeadlineOT-Black';
+	    font-size: 20pt;
+	}
+	#carros-lista h3 {
+		display:none;
+	}
+	#carros-lista{
+		padding-bottom: 0px;
+	}
+	#carros-lista h4 {
+	    margin-top: 25px;
+	    margin-bottom: 35px;
+	    text-align: center;
+	    color: #000;
+	    font-family: 'VWHeadlineOT-Semibold';
+	    font-size: 16pt;
+	}
+}

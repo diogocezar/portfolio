@@ -1,0 +1,81 @@
+.menu-insta{
+    margin-right: 7px;
+    margin-left: 2px;
+}
+
+.menu-face{
+    margin-left: 12px!important;
+    margin-right: 12px!important;
+}
+
+.menu-twitter{
+    margin-left: 2px!important;
+    margin-right: 14px!important;
+}
+
+.bg-menu{
+	background-color: #ec008c;
+	background-color: rgba(236,0,140,1);
+	min-height: 80px;
+	position: fixed;
+	width: 100%;
+	z-index: 2147483640;
+}
+
+.menu-right{
+	position: relative;
+	float:right;
+	margin-right: 7px;
+}
+
+.menu-top{
+	padding-top:29px;
+}
+
+.menu-separator{
+    border-right: 1px solid #f466ba;
+    position: relative;
+    float: right;
+    width: 5px;
+    height: 80px;
+    margin-right: 10px;
+}
+
+.hidden-menu{
+	display: block!important;
+}
+
+@media screen and (max-width: 650px){
+	.hidden-menu{
+		display: none!important;
+	}
+}
+
+.visible-xxs{
+	display: none;
+}
+
+.hidden-xxs{
+	display: block;
+}
+
+/* Reponsive 320 Adjustments */
+
+@media screen and (max-width: 320px){
+	.container-fluid {
+	    padding-right: 0px;
+	    padding-left: 0px;
+	}
+	.visible-xxs{
+		display: block;
+	}
+	.hidden-xxs{
+		display: none;
+	}
+	.bg-menu {
+	    min-height: 51px;
+	}
+	.menu-top {
+	    padding-top: 14px;
+	}
+}

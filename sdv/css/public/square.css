@@ -1,0 +1,68 @@
+.iamhere {
+  border:none!important;
+  visibility: hidden;
+}
+
+.l1, .l2, .l3, .l4 {
+  position: absolute;
+  background: transparent;
+  width: 0px;
+  height: 0px;
+  background-color: #f20f96;
+}
+
+.l1 {
+  left: 0;
+  bottom: 0;
+  width: 4px;
+}
+
+.type1>.l1{
+  height: 230px;
+}
+
+.type2>.l1{
+  height: 120px;
+}
+
+.l2 {
+  top: 0;
+  left: 0;
+  height: 4px;
+}
+
+.type1>.l2{
+  width: 160px;
+}
+
+.type2>.l2{
+  width: 200px;
+}
+
+.l3 {
+  right: 0;
+  top: 0;
+  width: 4px;
+}
+
+.type1>.l3{
+  height: 230px;
+}
+
+.type2>.l3{
+  height: 120px;
+}
+
+.l4 {
+  bottom: 0;
+  right: 0;
+  height: 4px;
+}
+
+.type1>.l4{
+  width: 160px;
+}
+
+.type2>.l4{
+  width: 200px;
+}

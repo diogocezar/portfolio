@@ -1,0 +1,300 @@
+#send{
+    padding-top: 150px;
+    margin-bottom: 120px;
+}
+
+#send h1{
+    font-family: 'bebas_neuebold';
+    font-size: 34pt;
+    color: #ec008c;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 10pt;
+}
+
+#send h2{
+    margin-top: 27px;
+    font-family: 'brandon_regular';
+    font-size: 13pt;
+    color: #58595b;
+    text-align: center;
+    margin-left: 15%;
+    margin-right: 15%;
+    line-height: 27pt;
+    letter-spacing: 1pt;
+    margin-bottom: 30px;
+}
+
+@media screen and (max-width: 530px){
+    #send h2{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+}
+
+input[type="text"]{
+    font-family: 'brandon_light';
+    width: 100%;
+    margin-top: 30px;
+    border: none;
+    border-bottom: 1px solid #58595b;
+    margin-bottom: 30px;
+    padding: 5px;
+    padding-bottom: 15px;
+    text-align: center;
+    letter-spacing: 3pt;
+    font-size: 20pt;
+    line-height: 40px;
+    -webkit-transition: all 0.1s ease-in-out;
+    -moz-transition: all 0.1s ease-in-out;
+    -ms-transition: all 0.1s ease-in-out;
+    -o-transition: all 0.1s ease-in-out;
+    transition: all 0.1s ease-in-out;
+}
+
+textarea{
+    resize: none;
+    font-family: 'brandon_light';
+    width: 100%;
+    margin-top: 30px;
+    border: 1px solid #58595b;
+    margin-bottom: 30px;
+    padding: 5px;
+    text-align: center;
+    letter-spacing: 3pt;
+    font-size: 20pt;
+    line-height: 40px;
+    -webkit-transition: all 0.1s ease-in-out;
+    -moz-transition: all 0.1s ease-in-out;
+    -ms-transition: all 0.1s ease-in-out;
+    -o-transition: all 0.1s ease-in-out;
+    transition: all 0.1s ease-in-out;
+}
+
+@media screen and (max-width: 530px){
+    input[type="text"],textarea{
+        font-size: 14pt;
+    }
+}
+
+.col-termos{
+    font-family: 'brandon_regular';
+    font-size: 12pt;
+}
+
+.col-termos a{
+    font-family: 'brandon_bold';
+    color: #ec008c;
+    -webkit-transition: all 0.1s ease-in-out;
+    -moz-transition: all 0.1s ease-in-out;
+    -ms-transition: all 0.1s ease-in-out;
+    -o-transition: all 0.1s ease-in-out;
+    transition: all 0.1s ease-in-out;
+}
+
+.col-termos a:hover{
+    color:#000;
+    text-decoration: none;
+}
+
+.col-termos>.icheckbox_square-grey{
+    margin-top: -9px;
+    margin-right: 10px;
+}
+
+@media screen and (max-width: 991px){
+    .col-send{
+        margin-top: 50px;
+    }
+}
+
+.btn-send{
+    font-family: 'brandon_bold';
+    width: 100%;
+    border: 2px solid #f20f96;
+    min-height: 53px;
+    padding: 5px;
+    padding-top: 14px;
+    padding-bottom: 13px;
+    text-align: center;
+    color: #f20f96;
+    letter-spacing: 3pt;
+    font-size: 10pt;
+    background-color: transparent;
+    -webkit-transition: all 0.1s ease-in-out;
+    -moz-transition: all 0.1s ease-in-out;
+    -ms-transition: all 0.1s ease-in-out;
+    -o-transition: all 0.1s ease-in-out;
+    transition: all 0.1s ease-in-out;
+}
+
+.btn-send:hover {
+    background-color: #f20f96;
+    color: #FFF;
+}
+
+@media screen and (max-width: 375px){
+    .btn-send{
+        font-size: 10pt;
+    }
+}
+
+.termos-in{
+    position: absolute;
+    top: 3px;
+    left: 30px;
+    letter-spacing: 1pt;
+}
+
+.btn-action-termos{
+    margin-right: 4px;
+}
+
+.termos-error{
+    color:#ff0000!important;
+}
+
+.error{
+    border-color: #ff0000!important;
+    border-bottom: 2px solid #ff0000!important;
+}
+
+.error::-webkit-input-placeholder{
+   color: #ff0000!important;
+}
+
+.error::-moz-placeholder{
+   color: #ff0000!important;
+}
+
+.error::-moz-placeholder{
+   color: #ff0000!important;
+}
+
+.error:-ms-input-placeholder{
+   color: #ff0000!important;
+}
+
+.thanks{
+    margin-top: 200px;
+}
+
+@media screen and (max-width: 650px){
+    .thanks{
+        margin-top: 0px;
+    }
+}
+
+.btn-back{
+    font-family: 'brandon_bold';
+    width: 280px;
+    margin-top: 30px;
+    border: 2px solid #f20f96;
+    margin-bottom: 30px;
+    padding: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    color: #f20f96;
+    letter-spacing: 3pt;
+    font-size: 10pt;
+    background-color: transparent;
+    -webkit-transition: all 0.1s ease-in-out;
+    -moz-transition: all 0.1s ease-in-out;
+    -ms-transition: all 0.1s ease-in-out;
+    -o-transition: all 0.1s ease-in-out;
+    transition: all 0.1s ease-in-out;
+}
+
+.btn-back:hover {
+    background-color: #f20f96;
+    color: #FFF;
+}
+
+@media screen and (max-width: 375px){
+    .btn-back{
+        font-size: 10pt;
+    }
+}
+
+.box-center{
+    position: absolute;
+    left:50%;
+    margin-left: -140px;
+}
+
+.break-lg{
+    display: block;
+    width: 100%;
+    height: 1px;
+}
+
+@media screen and (max-width: 1199px){
+    .break-lg{
+        display: none;
+    }
+}
+
+#termos{
+    letter-spacing: 1px;
+}
+
+@media screen and (max-width: 991px){
+    #send{
+        padding-top: 100px;
+        margin-bottom: 120px;
+    }
+}
+
+/* Reponsive 640 Adjustments */
+
+@media screen and (max-width: 640px){
+    input[type="text"], textarea {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        padding: 4px;
+    }
+    #send h1 {
+        font-family: 'bebas_neuebold';
+        font-size: 32pt;
+        color: #ec008c;
+        text-align: center;
+        text-transform: uppercase;
+        letter-spacing: 5pt;
+    }
+}
+
+/* Reponsive 320 Adjustments */
+
+@media screen and (max-width: 320px){
+    #send h2 {
+        line-height: 23pt;
+        font-size: 11pt;
+    }
+    input[type="text"], textarea {
+        margin-top: 10px;
+        margin-bottom: 15px;
+        padding:0px;
+        font-size: 13pt!important;
+    }
+    #send{
+        padding-top: 80px;
+        margin-bottom: 120px;
+    }
+    #send h1 {
+        font-family: 'bebas_neuebold';
+        font-size: 22pt;
+        color: #ec008c;
+        text-align: center;
+        text-transform: uppercase;
+        letter-spacing: 4pt;
+        line-height: 25pt;
+    }
+    .termos-in {
+        position: absolute;
+        top: 8px;
+        left: 30px;
+        letter-spacing: 1pt;
+        font-size: 6pt!important;
+    }
+}

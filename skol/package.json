@@ -1,0 +1,16 @@
+{
+  "name": "skol-ultra-academia",
+  "version": "0.0.15",
+  "private": false,
+  "description": "Frontend of Skol Ultra Academia Website",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Diogo Cezar <diogo@diogocezar.com>",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-cssmin": "^0.1.7",
+    "gulp-uglify": "0.3.1"
+  }
+}

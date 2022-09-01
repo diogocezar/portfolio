@@ -1,0 +1,223 @@
+body{
+	background-color: #000;
+}
+
+header{
+    background-image: url("../../images/main_img.jpg");
+    background-position: center center;
+    width: 100%;
+    height: 592px;
+    position: relative;
+    float: left;
+    background-repeat: no-repeat;
+    clear: both;
+}
+
+@media screen and (max-width: 640px){
+	header{
+	    background-size: cover!important;
+	}
+}
+
+@media screen and (max-width: 545px){
+	header{
+	    height: 492px;
+	}
+}
+
+@media screen and (max-width: 450px){
+	header{
+	    height: 392px;
+	}
+}
+
+@media screen and (max-width: 360px){
+	header{
+	    height: 320px;
+	}
+}
+
+.content {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: left;
+	width: 640px;
+	padding: 10px;
+	padding-top:0px;
+	height: 100%;
+	position: relative;
+	clear: both;
+}
+
+@media screen and (max-width: 640px){
+	.content {
+		width: 100%;
+	}
+}
+
+.center{
+	text-align: center;
+}
+
+.img-center{
+	margin: 0 auto;
+}
+
+.col-max{
+	max-width: 600px;
+}
+
+h1{
+	font-family: 'FuturaStd-Book';
+	text-transform: uppercase;
+	color: #fff;
+	text-align: center;
+	margin-bottom: 20px;
+	letter-spacing: 5pt;
+	line-height: 34pt;
+	margin-top: 0px;
+}
+
+.termos{
+	font-family: 'FuturaStd-Book';
+	text-transform: uppercase;
+	color: #fff;
+	text-align: center;
+	margin-bottom: 20px;
+	font-size: 12pt;
+	letter-spacing: 2pt;
+	line-height: 34pt;
+}
+
+.btn-termos{
+	cursor: pointer;
+}
+
+.btn-termos:hover{
+	text-decoration: underline;
+}
+
+input[type="checkbox"]{
+	margin-right: 10px;
+}
+
+strong{
+	font-family: 'FuturaStd-Bold';
+}
+
+.check{
+	position: relative;
+	float:left;
+}
+
+.label-terms{
+    position: relative;
+    float: left;
+}
+
+@media screen and (max-width: 400px){
+	h1{
+		font-size: 12pt;
+		letter-spacing: 3pt;
+		line-height: 20pt;
+	}
+	.termos{
+	    font-size: 6pt;
+	    letter-spacing: 1pt;
+	}
+}
+
+#termos{
+    display: none;
+}
+
+#termos h1{
+	font-family: 'FuturaStd-Bold';
+	font-size: 20pt;
+	color:#959595;
+}
+
+.content-popup{
+	font-family: 'FuturaStd-Book';
+	color: #fff!important;
+}
+
+.btn-back{
+	position: absolute;
+	left:50%;
+	margin-left: -110px;
+	background-color: transparent;
+	border:1px solid #acacac;
+	padding:10px;
+	font-family: 'FuturaStd-Book';
+	font-size: 16pt;
+	letter-spacing: 2pt;
+	width: 220px;
+	margin-bottom: 30px;
+	color:#acacac;
+	transition: all 0.5s ease 0s!important;
+	margin-bottom:30px;
+}
+
+.btn-back:hover{
+	background-color: #acacac;
+	color:#000;
+}
+
+.content-popup p{
+    margin-bottom: 23px;
+    margin-top: 27px;
+    font-family: 'FuturaStd-Book';
+    font-size: 12pt;
+    color: #959595;
+    text-align: left;
+    margin-left: 5%;
+    margin-right: 5%;
+    line-height: 16pt;
+    letter-spacing: 1pt;
+    text-transform: uppercase;
+}
+
+@media screen and (max-width: 530px){
+    .content-popup p{
+        margin-left: 0px;
+        margin-right: 0px;
+        font-size: 8pt;
+    }
+}
+
+@media screen and (max-width: 320px){
+	#termos h1{
+		font-size: 11pt;
+		color:#959595;
+	}
+	.label-termos{
+		height: 30px!important;
+		display: block;
+		line-height: 37px;
+		position: relative;
+		float: right;
+		margin-right: 12px;
+	}
+}
+
+@media screen and (max-width: 310px){
+	input[type="checkbox"] {
+	    margin-right: 5px;
+	}
+	.label-termos {
+		font-size: 5.7pt;
+    	margin-right: 0px;
+    	line-height: 10px!important;
+    	letter-spacing: 1px;
+    	margin-bottom: 10px;
+	}
+	strong {
+    	letter-spacing: 1px;
+	}
+}
+
+.img-download{
+	position: relative;
+	clear:both;
+}

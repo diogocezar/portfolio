@@ -1,0 +1,280 @@
+#artistas{
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 0!important;
+    background-image: url("../../images/artistas/artistas_artistas.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top:80px;
+}
+
+#artistas h2{
+    color:#fff;
+    margin-bottom: 25px;
+}
+
+.artist{
+    cursor: pointer;
+}
+
+.row-artistas-out{
+    margin-bottom: 30px;
+}
+
+.row-artistas img{
+    margin-bottom: 10px;
+}
+
+.img-title{
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+#detalhes{
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 0!important;
+    background-image: url("../../images/artistas/artistas_detalhes.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.line{
+    width: 100%;
+    border-bottom: 2px solid #e43c25;
+    height: 20px;
+    text-align: right;
+    margin-top:30px;
+}
+
+.lbl-line{
+    position: relative;
+    float:right;
+    color:#fff;
+    text-transform: uppercase;
+}
+
+.img-line{
+    position: relative;
+    margin-right: -5px;
+    float: right;
+    margin-top: -4px;
+}
+
+#detalhes h3{
+    color:#fff;
+    margin-bottom: 0px;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+#detalhes h4{
+    color:#fff;
+    margin-top: 2px;
+    margin-bottom: 25px;
+    font-size: 24pt;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+#detalhes p{
+    text-align: left;
+    color:#fff;
+}
+
+.tab{
+    text-align: center;
+    position: relative;
+    border-radius: 3px;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 11pt;
+    display: block;
+    float: left;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 15px;
+    padding-bottom: 13px;
+    margin-top: 3px;
+    font-family: 'co_headlineregular';
+    letter-spacing: 1px;
+}
+
+.actived{
+    background-color: #e43c25!important;
+}
+
+.tab-start{
+    background-color: #969696;
+    border-radius: 5px 0 0 5px;
+}
+
+.tab-end{
+    background-color: #969696;
+    border-radius: 0 5px 5px 0;
+}
+
+.tab-border{
+    border-left:1px solid #cbcbcb;
+}
+
+.full-width{
+    width: 100%;
+    position: relative;
+    float:left;
+    z-index: 9999999;
+    margin-top: 35px;
+    margin-bottom: 20px;
+}
+
+.video-artist{
+    clear: both;
+    margin-bottom: 30px;
+}
+
+#videos{
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 0!important;
+    background-image: url("../../images/artistas/artistas_videos.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#videos h2{
+    color:#fff;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 35px;
+}
+
+.lbl-download{
+    position: relative;
+    float: right;
+    color: #fff;
+    margin-left: 20px;
+    text-transform: uppercase;
+    line-height: 33px;
+}
+
+.lbl-compartilhar{
+    position: relative;
+    float: right;
+    color: #fff;
+    margin-right: 20px;
+    text-transform: uppercase;
+    line-height: 33px;
+}
+
+.share-face{
+    position: relative;
+    float:right;
+    margin-right: 5px;
+}
+
+.share-twitter{
+    position: relative;
+    float:right;
+    margin-right: 5px;
+}
+
+#brahma-valley{
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 0!important;
+    background-image: url("../../images/artistas/artistas_brahma_valley.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#brahma-valley h2{
+    color:#fff;
+    text-align: center;
+    text-transform: none;
+    margin-top: 35px;
+}
+
+.full-width{
+    width: 100%;
+    position: relative;
+    float:left;
+    z-index: 9999999;
+    margin-top: 35px;
+}
+
+.btn-compre{
+    left: 50%;
+    margin-left: -210px;
+    text-align: center;
+    position: relative;
+    width: 420px!important;
+    display: block;
+    background-color: #e43c25;
+    border-radius: 5px;
+    text-transform: uppercase;
+    color: #fff;
+    padding:10px;
+    font-size: 16pt;
+    font-weight: bold;
+}
+
+.fill-description{
+    margin-bottom: 30px;
+}
+
+.fill-special{
+    display: none;
+}
+
+.margin-vertical{
+    margin-top: 44px;
+}
+
+/* Responsive */
+
+@media screen and (max-width: 1199px){
+    .img-mobile{
+        text-align: center!important;
+        margin: 0 auto!important;
+        float: none!important;
+        margin-bottom: 34px!important;
+        margin-top: 40px!important;
+    }
+    .lbl-download, .lbl-compartilhar {
+        float:none!important;
+        margin-left: 0px!important;
+        margin-right: 0px!important;
+    }
+    #videos .img-line {
+        float:none!important;
+    }
+    .share-face, .share-twitter{
+        float:none!important;
+    }
+    .full-width{
+        margin-top:5px!important;
+    }
+}
+
+@media screen and (max-width: 470px){
+    .tab{
+        width: 100%!important;
+        border-radius: 5px 5px 5px 5px!important;
+    }
+    .tab-border{
+        border:none!important;
+    }
+    .btn-compre {
+        left: 0px!important;
+        margin-left: 0px!important;
+        width: 100%!important;
+    }
+}

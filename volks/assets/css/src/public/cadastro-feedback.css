@@ -1,0 +1,438 @@
+/* Cadastro Feedback */
+
+.vw-check-full {
+	margin-top: 12px!important;
+}
+
+.vw-check-full-first{
+	margin-top: 34px!important;
+}
+
+#cadastro-feedback{
+	margin-top: 100px;
+	background-color: #f0f5f6;
+	padding-bottom: 100px;
+}
+
+#cadastro-feedback h2{
+	text-align: center;
+	text-transform: none;
+	margin-top: 100px;
+	margin-bottom: 10px;
+	font-family: 'VWHeadlineOT-Black';
+	font-size: 54pt;
+}
+
+#cadastro-feedback .msg-box{
+	margin-top: 60px;
+	width: 100%;
+	padding: 20px;
+	background-color: #3175ac;
+	color: #fff;
+	font-size: 16pt;
+	font-family: 'VWHeadlineOT-Semibold';
+	position: relative;
+	float: left;
+}
+
+#cadastro-feedback .msg-box img{
+    position: relative;
+    float: left;
+}
+
+#cadastro-feedback .msg-box .lbl-sucesso{
+    position: relative;
+    float: left;
+    padding-top: 6px;
+}
+
+#cadastro-feedback .msg-box img{
+	margin-right: 10px;
+}
+
+#cadastro-feedback h3 {
+	margin-top: 60px;
+    text-align: left;
+    text-transform: none;
+    font-family: 'VWHeadlineOT-Book';
+    font-size: 18pt;
+    color: #cbd3d4;
+    width: 100%;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #cbd3d4;
+    margin-bottom: 50px;
+	position: relative;
+	float: left;
+}
+
+#cadastro-feedback h5 {
+	margin-top: 20px;
+    text-align: left;
+    text-transform: none;
+    font-family: 'VWHeadlineOT-Black';
+    font-size: 16pt;
+}
+
+#cadastro-feedback .line{
+	margin-top: 60px;
+	width: 100%;
+	height: 5px;
+	border-bottom: 1px solid #cbd3d4;
+}
+
+#cadastro-feedback .orcamento{
+	margin-top: 60px;
+	width: 100%;
+	padding: 20px;
+	background-color: #3175ac;
+	color: #fff;
+	font-size: 18pt;
+	font-family: 'VWHeadlineOT-Semibold';
+	text-align: center;
+}
+
+#cadastro-feedback .resultados{
+	margin-top: 20px;
+	margin-bottom: 30px;
+	font-size: 14pt;
+	font-family: 'VWHeadlineOT-Semibold';
+}
+
+#cadastro-feedback .box-feedback{
+	background-color: #fff;
+	border: 1px solid #cbd3d4;
+	border-radius: 2px;
+	padding: 20px;
+	margin-bottom: 20px;
+	margin: 10px;
+}
+
+#cadastro-feedback h4{
+	font-size: 12pt;
+	margin-left: 35px;
+}
+
+#cadastro-feedback h4 a{
+	font-family: 'VWHeadlineOT-Black';
+}
+
+#cadastro-feedback .sem-resultados h2 {
+	text-align: center;
+    text-transform: none;
+    margin-top: 100px;
+    margin-bottom: 0px;
+    font-family: 'VWHeadlineOT-Black';
+    font-size: 56pt;
+    color: #3175ac;
+}
+
+#cadastro-feedback .sem-resultados h3 {
+    text-align: center;
+    text-transform: none;
+    margin-bottom: 10px;
+    font-family: 'VWHeadlineOT-Book';
+    font-size: 36pt;
+    color: #3175ac;
+    border: none!important;
+    margin-top: 10px;
+}
+
+#cadastro-feedback .label-solicitacao{
+	font-family: 'VWHeadlineOT-Book';
+	font-size: 12pt;
+}
+
+strong {
+    font-weight: 300!important;
+}
+
+#cadastro-feedback .label-solicitacao strong{
+	font-family: 'VWHeadlineOT-Black';
+	color: #3175AC;
+}
+
+#cadastro-feedback .row-solicitacao{
+	margin-top: 20px;
+}
+
+#cadastro-feedback .btn-minha-lista {
+    padding: 10px;
+    padding-right: 15px;
+    padding-left: 15px;
+    position: relative;
+    float: left;
+    background-color: #3175ac;
+    margin-right: 10px;
+    font-size: 14pt;
+    font-family: 'VWHeadlineOT-Semibold';
+    color: #fff;
+}
+
+#cadastro-feedback #acessorios{
+	padding-bottom: 40px;
+}
+
+#cadastro-feedback .row-acessorios{
+	margin-top: 20px;
+}
+
+#cadastro-feedback .row-acessorios h2{
+	text-align: center;
+	color: #33434c;
+	font-size: 14pt;
+	margin-bottom: 60px;
+	font-family: 'VWHeadlineOT-Black';
+}
+
+#cadastro-feedback .row-acessorios h4{
+	font-size: 16pt;
+    font-family: 'VWHeadlineOT-Black';
+    position: relative;
+    float: left;
+    width: 100%;
+    margin-top: 20px;
+	margin-left: 0px!important;
+
+}
+
+#cadastro-feedback .row-acessorios a{
+	color:#000;
+}
+
+#cadastro-feedback .row-acessorios a:hover{
+	text-decoration: none;
+	color:#000;
+}
+
+#cadastro-feedback .row-acessorios h5{
+	font-size: 16pt;
+	font-family: 'VWHeadlineOT-Book';
+}
+
+#cadastro-feedback .row-acessorios h6{
+	font-size: 14pt;
+	color: #AFAFAF;
+}
+
+#cadastro-feedback a{
+	text-decoration: none!important;
+}
+
+/* Setas Carrosel */
+
+#cadastro-feedback .owl-carousel-custom-navigation {
+    top: 0;
+}
+#cadastro-feedback .owl-custom-navigation-btn.btn-prev, .owl-custom-navigation-btn.btn-prev {
+    float:none!important;
+    position: absolute;
+    top: -93px;
+	height: 34px;
+	width: 19px;
+    right: 15%;
+    z-index:0!important;
+}
+#cadastro-feedback .owl-custom-navigation-btn.btn-next, .owl-custom-navigation-btn.btn-next {
+    float:none!important;
+    position: absolute;
+    top: -93px;
+	height: 34px;
+	width: 19px;
+    right: 11%;
+    z-index:0!important;
+}
+#cadastro-feedback .owl-custom-navigation-btn.btn-prev img, .owl-carousel-custom-navigation .owl-custom-navigation-btn.btn-prev img {
+    position: absolute;
+    left: 81%;
+    z-index:0!important;
+    background-color: #F0F5F6;
+    padding-left: 10px;
+    padding-right: 25px;
+}
+#cadastro-feedback .owl-custom-navigation-btn.btn-next img, .owl-carousel-custom-navigation .owl-custom-navigation-btn.btn-next img {
+    position: absolute;
+    right: 15%;
+    z-index:0!important;
+    background-color: #F0F5F6;
+    padding-left: 25px;
+    padding-right: 10px;
+}
+
+.fadeout{
+	position: absolute;
+    z-index: 2;
+    right: 0;
+    bottom: 0;
+    left: 80%;
+    height: 100%;
+    background: url(data:image/svg+xml;base64,alotofcodehere);
+    background: -moz-linear-gradient(top, rgba(255,255,255,0) 0%, rgb(240, 245, 246) 70%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,0)), color-stop(70%,rgb(240, 245, 246)));
+    background: -webkit-linear-gradient(top, rgba(255,255,255,0) 0%,rgb(240, 245, 246) 70%);
+    background: -o-linear-gradient(top, rgba(255,255,255,0) 0%,rgb(240, 245, 246) 70%);
+    background: -ms-linear-gradient(top, rgba(255,255,255,0) 0%,rgb(240, 245, 246) 70%);
+    background: linear-gradient(to right, rgba(255,255,255,0) 0%,rgb(240, 245, 246) 70%);
+}
+
+@media screen and (max-width: 1366px){
+    #cadastro-feedback {
+        margin-top: 70px;
+    }
+}
+
+@media screen and (max-width: 1199px){
+	#cadastro-feedback .msg-box .lbl-sucesso{
+	    position: relative;
+	    float: left;
+	    padding-top: 3px;
+	    max-width: 94%;
+	    font-size: 13pt;
+	}
+	#cadastro-feedback .msg-box img{
+		margin-right: 10px;
+		max-height: 30px;
+	}
+}
+
+@media screen and (max-width: 1024px){
+	#cadastro-feedback {
+	    margin-top: 50px;
+	    padding-bottom: 105px;
+	}
+}
+
+@media screen and (max-width: 768px){
+	#cadastro-feedback .msg-box .lbl-sucesso{
+	    position: relative;
+	    float: left;
+	    padding-top: 3px;
+	    max-width: 80%;
+	    font-size: 13pt;
+	}
+	#cadastro-feedback .msg-box img{
+		margin-right: 10px;
+		max-height: 30px;
+	}
+	#cadastro-feedback h3 {
+	    margin-bottom: 20px;
+	}
+	#cadastro-feedback h2 {
+		text-align: center;
+		text-transform: none;
+		margin-top: 50px;
+		margin-bottom: 20px;
+		font-family: 'VWHeadlineOT-Black';
+		font-size: 23pt;
+	}
+	#cadastro-feedback .msg-box {
+	    margin-top: 40px;
+	    width: 100%;
+	    padding: 20px;
+	    background-color: #3175ac;
+	    color: #fff;
+	    font-size: 13pt;
+	    font-family: 'VWHeadlineOT-Semibold';
+	}
+}
+
+@media screen and (max-width: 468px){
+	#cadastro-feedback .msg-box .lbl-sucesso{
+	    padding-top: 0px;
+	}
+	#cadastro-feedback .orcamento{
+		margin-top: 20px;
+		font-size: 14pt;
+	}
+	#cadastro-feedback .col-spacer-mobile{
+		margin-bottom: 20px;
+	}
+	#cadastro-feedback .msg-box img {
+	    margin-right: 8px;
+	    height: 21px;
+	}
+	#cadastro-feedback h3 {
+	    margin-top: 40px;
+	}
+	#cadastro-feedback .owl-custom-navigation-btn.btn-next img, .owl-carousel-custom-navigation .owl-custom-navigation-btn.btn-next img {
+	    position: absolute;
+	    right: 13%;
+	    z-index: 0!important;
+	    background-color: #F0F5F6;
+	    padding-left: 10px;
+	    padding-right: 10px;
+	}
+	#cadastro-feedback .owl-custom-navigation-btn.btn-prev img, .owl-carousel-custom-navigation .owl-custom-navigation-btn.btn-prev img {
+	    position: absolute;
+	    left: 77%;
+	    z-index: 0!important;
+	    background-color: #F0F5F6;
+	    padding-left: 10px;
+	    padding-right: 25px;
+	}
+	#cadastro-feedback .owl-custom-navigation-btn.btn-prev, .owl-custom-navigation-btn.btn-prev {
+	    right: 21%;
+	}
+	#cadastro-feedback .owl-custom-navigation-btn.btn-next, .owl-custom-navigation-btn.btn-next {
+	    right: 15%;
+	}
+}
+
+@media screen and (max-width: 992px){
+	.row-pesquisa{
+		margin-bottom: 30px;
+	}
+	.vw-check-full {
+		margin-top: 23px!important;
+	}
+
+	.vw-check-full-first{
+		margin-top: 23px!important;
+	}
+	#cadastro-feedback .col-spacer-mobile{
+		margin-bottom: 20px;
+	}
+}
+
+@media screen and (max-width: 768px){
+	#cadastro-feedback .sem-resultados h2 {
+	    font-size: 32pt;
+	}
+	#cadastro-feedback .sem-resultados h3 {
+	    font-size: 22pt;
+	}
+	#cadastro-feedback {
+	    margin-top: 50px;
+	    padding-bottom: 25px;
+	}
+	#cadastro-feedback .line {
+	    margin-top: 25px;
+	    width: 100%;
+	    height: 5px;
+	    border-bottom: 1px solid #cbd3d4;
+	}
+	#cadastro-feedback .sem-resultados h2 {
+	    text-align: center;
+	    text-transform: none;
+	    margin-top: 25px;
+	    margin-bottom: 0px;
+	    font-family: 'VWHeadlineOT-Black';
+	    font-size: 27pt!important;
+	    color: #3175ac;
+	}
+}
+
+@media screen and (max-width: 400px){
+    #cadastro-feedback .row-acessorios h4 {
+        font-size: 13pt;
+    }
+    #cadastro-feedback .row-acessorios h5 {
+        font-size: 14pt;
+    }
+}
+
+
+@media screen and (max-width: 300px){
+	#cadastro-feedback h2 {
+	    font-size: 25pt;
+	}
+}

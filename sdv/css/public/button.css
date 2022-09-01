@@ -1,0 +1,63 @@
+*, :before, :after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+
+.button,
+[class*="button-"] {
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  padding: 0 4em;
+  height: 3.5em;
+  font: 300 1em/3.5em 'brandon_bold';
+  -moz-transition: ease 0.35s all;
+  -o-transition: ease 0.35s all;
+  -webkit-transition: ease 0.35s all;
+  transition: ease 0.35s all;
+}
+.button:hover,
+[class*="button-"]:hover {
+}
+
+.button-hover-share{
+  min-height: 59px;
+}
+
+.button-hover-bloqueada{
+  min-height: 48px;
+}
+
+.button-hover:hover,  .button-hover-big:hover, .button-hover-bloqueada:hover, .button-hover-share:hover{
+  line-height: 9em;
+}
+.button-hover:before {
+  content: attr(data-text);
+  color: #FFF;
+  position: absolute;
+  top: -2.75em;
+}
+
+.button-hover-big:before {
+  content: attr(data-text);
+  color: #FFF;
+  position: absolute;
+  top: -2.6em;
+}
+
+
+.button-hover-bloqueada:before {
+  content: attr(data-text);
+  color: #FFF;
+  position: absolute;
+  top: -2.2em;
+}
+
+.button-hover-share:before {
+  content: attr(data-text);
+  color: #FFF;
+  position: absolute;
+  top: -2.4em;
+}

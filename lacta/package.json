@@ -1,0 +1,17 @@
+{
+  "name": "promocao-lacta-alegria-para-todos-os-gostos",
+  "version": "0.0.15",
+  "private": false,
+  "description": "Este é o projeto de Front-End do website da Promoção Lacta Alegria pata todos os Gostos.",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Diogo Cezar <diogo@diogocezar.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-cssmin": "^0.1.7",
+    "gulp-uglify": "0.3.1"
+  }
+}

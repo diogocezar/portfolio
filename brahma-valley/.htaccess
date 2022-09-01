@@ -1,0 +1,12 @@
+<IfModule mod_rewrite.c>
+	RewriteEngine On
+	RewriteRule ^/?$ ./landing.php [NC,L]
+	RewriteRule ^home$ ./index.php [NC,L]
+	RewriteRule ^ingressos?$ ./ingressos.php [NC,L]
+	RewriteRule ^artistas?$ ./artistas.php [NC,L]
+	RewriteRule ^artistas/([a-zA-Z0-9_-]+)$ ./artistas.php?artista=$1 [NC,L]
+	RewriteRule ^sobre?$ ./sobre.php [NC,L]
+	RewriteRule ^sobre/([a-zA-Z0-9_-]+)$ ./sobre.php?exp=$1 [NC,L]
+	RewriteRule ^informacoes?$ ./informacoes.php [NC,L]
+	RewriteRule ^send?$ ./app/Oracle.php?method=sendMail [NC,L]
+</IfModule>

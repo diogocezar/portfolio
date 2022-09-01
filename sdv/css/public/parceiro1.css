@@ -1,0 +1,213 @@
+.bg-half{
+    position: fixed;
+    top: 0;
+    left: calc(50% + 162px);
+    width: calc(50% + 162px);
+    z-index: -1;
+    height: 100%;
+    background: -moz-linear-gradient(left,  rgba(242,242,242,1) 0%, rgba(242,242,242,0) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(242,242,242,1)), color-stop(100%,rgba(242,242,242,0))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(left,  rgba(242,242,242,1) 0%,rgba(242,242,242,0) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(left,  rgba(242,242,242,1) 0%,rgba(242,242,242,0) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(left,  rgba(242,242,242,1) 0%,rgba(242,242,242,0) 100%); /* IE10+ */
+    background: linear-gradient(to right,  rgba(242,242,242,1) 0%,rgba(242,242,242,0) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2f2f2', endColorstr='#00f2f2f2',GradientType=1 ); /* IE6-9 */
+}
+
+.bg-dots{
+    background: url('../../images/receita/receita_vertical_dots.png') repeat-y 0%;
+    position: absolute;
+    top: 0;
+    left: calc(50% + 162px);
+    width: 10px;
+    z-index: -1;
+    height: 100%;
+    margin-left: -1px;
+    margin-top: 41px;
+}
+
+.box-options{
+    position: relative;
+    float: left;
+    width: 100%;
+    margin-top: 32px;
+    margin-bottom: 25px;
+    padding-right: 11px;
+    padding-left: 11px;
+}
+
+.line:before{
+    content: url("../../images/receita/receita_dot_in_fill.png");
+    height: 18px;
+    width: 18px;
+    position: relative;
+    float: left;
+    cursor: pointer;
+    -webkit-transition: all 0.1s ease-in-out;
+    -moz-transition: all 0.1s ease-in-out;
+    -ms-transition: all 0.1s ease-in-out;
+    -o-transition: all 0.1s ease-in-out;
+    transition: all 0.1s ease-in-out;
+}
+
+.heart{
+    position: absolute;
+    left:50%;
+    background-image: url("../../images/receita/receita_heart_disabled.png");
+    height: 19px;
+    width: 24px;
+    margin-left: -13px;
+    cursor: pointer;
+    -webkit-transition: all 0.1s ease-in-out;
+    -moz-transition: all 0.1s ease-in-out;
+    -ms-transition: all 0.1s ease-in-out;
+    -o-transition: all 0.1s ease-in-out;
+    transition: all 0.1s ease-in-out;
+    transform: scale(0.9,0.9)!important;
+}
+
+.me{
+    font-size: 20pt;
+    color: #ec008c;
+    position: absolute;
+    top: 27px;
+    left: 9px;
+}
+
+.love{
+    position: absolute;
+    top: 30px;
+    left: 100%;
+    margin-left: -50px;
+    width: 85px;
+}
+
+.we{
+    font-size: 14pt;
+    color: #aaaaaa;
+    letter-spacing: 1pt;
+    font-family: 'bebas_neuebold';
+    position: absolute;
+    top: 30px;
+    left: 50%;
+    margin-left: -13px;
+}
+
+.dot-inside{
+    position: absolute;
+    left: calc(50% + 162px);
+    background-image: url("../../images/receita/receita_dot_middle.png");
+    height: 8px;
+    width: 8px;
+    top:5px;
+    margin-left: -4px;
+    cursor: pointer;
+    -webkit-transition: all 0.1s ease-in-out;
+    -moz-transition: all 0.1s ease-in-out;
+    -ms-transition: all 0.1s ease-in-out;
+    -o-transition: all 0.1s ease-in-out;
+    transition: all 0.1s ease-in-out;
+    transform: scale(0.9,0.9)!important;
+}
+
+/* Responsive Bg */
+
+@media screen and (max-width: 1199px){
+    .bg-half{
+        left: calc(50% + 161px);
+        width: calc(50% + 161px);
+    }
+    .bg-dots{
+        left: calc(50% + 161px);
+    }
+    .dot-inside{
+        left: calc(50% + 161px);
+    }
+    .box-options{
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+}
+
+@media screen and (max-width: 991px){
+    .bg-half{
+        left: calc(50% + 250px);
+        width: calc(50% + 250px);
+    }
+    .bg-dots{
+        left: calc(50% + 250px);
+    }
+    .dot-inside{
+        left: calc(50% + 250px);
+    }
+}
+
+@media screen and (max-width: 767px){
+    .bg-half {
+        left: 83.4%;
+        width: 83.4%;
+    }
+    .bg-dots{
+        left: 66.66667%;
+    }
+    .dot-inside{
+        left: calc(84% + 8px);
+    }
+}
+
+/* Dotted Line */
+
+.line-dotted{
+    background-image: url("../../images/receita/receita_line_in_dotted.png")!important;
+}
+
+/* Responsive Adjustments */
+
+@media screen and (max-width: 991px){
+    .me, .love {
+        font-family: 'bebas_neuebold';
+        font-size: 18pt;
+        color: #aaaaaa;
+    }
+    .me {
+        font-size: 27pt;
+        color: #ec008c!important;
+        position: absolute;
+        top: 19px;
+        left: -4px;
+    }
+    .love {
+        position: absolute;
+        top: 19px;
+        left: 100%;
+        margin-left: -87px;
+        width: 89px;
+    }
+    .we {
+        font-size: 18pt;
+        color: #aaaaaa;
+        font-family: 'bebas_neuebold';
+        position: absolute;
+        top: 19px;
+        left: 50%;
+        margin-left: -16px;
+    }
+}
+
+@media screen and (max-width: 1199px){
+    .me{
+        left: 0;
+        margin-left: -3px;
+    }
+    .love{
+        margin-left: -43px;
+        width: 97px;
+    }
+}
+
+@media screen and (max-width: 430px){
+    .love{
+        margin-left: -85px;
+        width: 97px;
+    }
+}

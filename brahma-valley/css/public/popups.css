@@ -1,0 +1,59 @@
+#terms{
+    z-index: 99999999;
+    display: none;
+    background-color: #000;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0!important;
+}
+
+#politics{
+    z-index: 99999999;
+    display: none;
+    background-color: #000;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0!important;
+}
+
+#terms h3, #politics h3{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 18pt;
+}
+
+#terms h2, #politics h2{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 12pt;
+}
+
+.btn-close{
+    background: url("../../images/shared/close.png") center 0;
+    height: 50px;
+    width: 50px;
+    top: 45px;
+    left: 100%;
+    margin-left: -100px;
+    cursor: pointer;
+    z-index: 9999999;
+    position: fixed;
+    display: none;
+}
+
+.content-popup{
+	margin-top: 40px;
+	color: #949494!important;
+}
+
+.content-popup p{
+    line-height: 27px;
+    margin-bottom: 23px;
+}
+
+h2{
+	text-transform: uppercase;
+	font-weight: bold;
+}

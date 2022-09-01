@@ -1,0 +1,369 @@
+/* Acessorios */
+
+#acessorios{
+	margin-top: 180px;
+	padding-top: 40px;
+}
+
+#acessorios h2{
+	font-size: 84pt;
+	text-align: center;
+	font-family: 'VWHeadlineOT-Black';
+	margin-top: 60px;
+}
+
+#acessorios .path{
+	text-align: center;
+	font-size: 16pt;
+}
+
+#acessorios a{
+	text-decoration: none;
+	color: black;
+}
+
+#acessorios a:hover{
+	text-decoration: underline;
+	color: black;
+}
+
+.actived{
+	color: #48B1EB!important;
+	font-family: 'VWHeadlineOT-Black';
+}
+
+#resultados{
+	margin-top: 80px;
+}
+
+#resultados a{
+	text-decoration: none;
+	color: #000;
+}
+
+#resultados a:hover{
+	text-decoration: none;
+	color: #000;
+}
+
+.internal-section .interna-price{
+    font-size: 18pt;
+    margin-bottom: 20px;
+}
+
+.internal-section .interna-label{
+    font-size: 16pt;
+    font-family: 'VWHeadlineOT-Black';
+    position: relative;
+    float: left;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.internal-section .interna-label a{
+	text-decoration: none;
+	color: #000;
+}
+
+.internal-section .interna-label a:hover{
+	text-decoration: none;
+	color: #000;
+}
+
+#carregar-mais{
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+#carregar-mais h2{
+	text-align: center;
+    font-size: 16pt;
+    margin-right: 35px;
+    cursor: pointer;
+    font-family: 'VWHeadlineOT-Black';
+}
+
+#carregar-mais h2:after {
+    content: url('../../../images/shared/bottom-arrow.png');
+    position: absolute;
+    margin-left: 13px;
+    margin-top: 6px;
+}
+
+/* PopUp Detalhes */
+
+/* Email */
+
+#popup-detalhes{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 2147483647;
+    height: 100%;
+    display:none;
+}
+
+#popup-detalhes .col-detalhes {
+    padding-right: 50px;
+    box-sizing: border-box;
+}
+
+#popup-detalhes .row-pop-up{
+	margin-top: 180px;
+}
+
+#popup-detalhes .box-detalhes{
+	border: 2px solid #cbd3d4;
+	border-radius: 2px;
+	background-color: #fff;
+	margin-right: 10%;
+	margin-left: 10%;
+	padding: 30px;
+}
+
+#popup-detalhes .btn-close-detalhes{
+    position: relative;
+    float: right;
+    width: 100%;
+}
+
+#popup-detalhes .btn-close-detalhes img{
+	position: absolute;
+	right: 0;
+	z-index:5;
+	cursor: pointer;
+}
+
+#popup-detalhes .btn-adicionar-lista{
+    padding: 10px;
+    padding-right: 15px;
+    padding-left: 15px;
+    position: relative;
+    background-color: #3175ac;
+    margin-right: 10px;
+    font-size: 14pt;
+    font-family: 'VWHeadlineOT-Semibold';
+    color: #fff;
+    border:none;
+}
+
+#popup-detalhes .btn-adicionar-lista img{
+	height: 20px;
+}
+
+#popup-detalhes .fill-name{
+	font-family: 'VWHeadlineOT-Black';
+    font-size: 24pt;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+#popup-detalhes h3{
+	font-family: 'VWHeadlineOT-Semibold';
+    font-size: 18pt;
+    margin: 0;
+    margin-bottom: 5px;
+    margin-top: 30px!important;
+}
+
+#popup-detalhes .fill-code{
+	font-family: 'VWHeadlineOT-Black';
+    font-size: 18pt;
+    margin: 0;
+    margin-bottom: 15px;
+}
+
+#popup-detalhes .fill-description{
+    font-family: 'VWHeadlineOT-Book';
+    font-size: 13pt;
+    margin: 0;
+    margin-bottom: 15px;
+    margin-top: 20px!important;
+}
+
+#popup-detalhes .fill-value{
+    font-family: 'VWHeadlineOT-Black';
+    font-size: 18pt;
+    margin: 0;
+    margin-bottom: 5px;
+    margin-top: 30px!important;
+}
+
+#popup-detalhes .label-value{
+    font-family: 'VWHeadlineOT-Book';
+    font-size: 12pt;
+    margin: 0;
+    margin-bottom: 30px;
+    color: #AFAFAF;
+}
+
+#popup-detalhes .label-footer{
+    font-family: 'VWHeadlineOT-Semibold';
+    font-size: 12pt;
+    margin: 0;
+    margin-bottom: 5px;
+    color: #AFAFAF;
+    margin-top: 31px;
+}
+
+#popup-detalhes .fill-compatible{
+	font-family: 'VWHeadlineOT-Book';
+    font-size: 12pt;
+    margin: 0;
+    margin-bottom: 5px;
+    color: #AFAFAF;
+}
+
+.path-mobile{
+    display: none;
+    float:left;
+    width: 100%;
+    clear:both;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.img-add-cart{
+    height: 20px;
+}
+
+.name-desktop{
+    display : block;
+}
+.name-mobile{
+    display: none;
+}
+
+/* Responsive Adjustments */
+
+@media screen and (max-width: 1366px){
+    header {
+        margin-top: 128px;
+    }
+}
+
+@media screen and (max-height: 780px){
+    #popup-detalhes .row-pop-up{
+        margin-top: 100px;
+    }
+}
+
+@media screen and (max-height: 700px){
+    #popup-detalhes .row-pop-up{
+        margin-top: 40px;
+    }
+}
+
+@media screen and (max-width: 1024px){
+    .name-desktop{
+        display : none;
+    }
+    .name-mobile{
+        display: block;
+    }
+    .menu-interna-mobile-bend{
+        display: block;
+    }
+    .menu-interna-mobile{
+        top:90px;
+    }
+    header{
+        margin-top: 155px!important;
+        padding-top: 0px!important;
+    }
+    #acessorios h2 {
+        font-size: 20pt;
+        text-align: center;
+        font-family: 'VWHeadlineOT-Black';
+        margin-top: 20px;
+        position: relative;
+        float: left;
+        width: 100%;
+    }
+    .path{
+        display: none;
+    }
+    .path-mobile{
+        display: block;
+    }
+    #resultados {
+        margin-top: 20px;
+    }
+    .internal-section .interna-title {
+        text-align: left;
+        text-transform: none;
+        margin-top: 40px;
+        margin-bottom: 30px;
+        font-family: 'VWHeadlineOT-Black';
+        font-size: 24pt;
+    }
+    .internal-section .interna-subtitle {
+        display: none;
+    }
+    .internal-section .interna-label {
+        text-align: left;
+        color: #000;
+        font-size: 12pt;
+        font-family: 'VWHeadlineOT-Semibold';
+        margin-top: 15px;
+        min-height: 0;
+    }
+    .internal-section .interna-price {
+        text-align: left;
+        color: #000;
+        font-size: 12pt;
+        font-family: 'VWHeadlineOT-book';
+        margin-top: 15px;
+        min-height: 0;
+    }
+    #popup-detalhes {
+        position: relative;
+        z-index:0;
+        width: 100%;
+    }
+    #popup-detalhes .container {
+        width: 100%;
+    }
+    #popup-detalhes .box-detalhes {
+        border: 2px solid #cbd3d4;
+        border-radius: 2px;
+        background-color: #fff;
+        margin-right: 0;
+        margin-left: 0;
+        padding: 30px;
+    }
+    #popup-detalhes .row-pop-up {
+        margin-top: 10px;
+    }
+    #popup-detalhes .box-detalhes {
+        border: none;
+        background-color: #e3ebed;
+    }
+    #popup-detalhes .fill-img img{
+        margin: 0 auto;
+        width: 100%;
+    }
+    #popup-detalhes .btn-close-detalhes img {
+        position: absolute;
+        right: 0;
+        z-index: 5;
+        cursor: pointer;
+        top: -53px;
+        background-color: #FFFFFF;
+        padding: 5px;
+        border: 2px solid #CBD3D4;
+    }
+    #popup-detalhes .fill-name {
+        font-family: 'VWHeadlineOT-Black';
+        font-size: 20pt;
+        margin: 0;
+        margin-top: 10px;
+        text-align: left;
+        margin-bottom: 15px;
+    }
+    #popup-detalhes .label-value, #popup-detalhes .fill-compatible, #popup-detalhes .label-footer{
+        color: #000;
+    }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "skol-ultra-academia",
+  "description": "Frontend of Skol Ultra Academia Website",
+  "main": "index.html",
+  "authors": [
+    "Diogo Cezar <diogo@diogocezar.com>"
+  ],
+  "keywords": [
+    "Front-End",
+    "Diogo",
+    "Cezar"
+  ],
+  "homepage": "http://git.bolha.com.br/wieden-kennedy/skol_ultra_academia_frontend",
+  "moduleType": [
+    "globals",
+    "node"
+  ],
+  "ignore": [
+    "node_modules",
+    "bower_components"
+  ]
+}

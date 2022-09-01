@@ -1,0 +1,523 @@
+#minha-lista-vazio{
+	margin-top: 100px;
+	padding-bottom: 170px;
+	background-color: #f0f5f6;
+}
+
+#minha-lista-vazio h2{
+	text-align: center;
+	text-transform: none;
+	margin-top: 100px;
+	margin-bottom: 10px;
+	font-family: 'VWHeadlineOT-Black';
+	font-size: 56pt;
+	color: #3175ac;
+}
+
+#minha-lista-vazio h3 {
+    text-align: center;
+    text-transform: none;
+    margin-bottom: 35px;
+    font-family: 'VWHeadlineOT-Book';
+    font-size: 28pt;
+    color: #3175ac;
+}
+
+#minha-lista-vazio .adicionar-lista{
+	position: absolute;
+	left: 50%;
+	width: 250px;
+	margin-left: -125px;
+	text-align: center;
+	padding: 15px;
+	background-color: #3175ac;
+	color: #fff;
+	font-size: 14pt;
+	margin-top: 0px;
+}
+
+#minha-lista-vazio .adicionar-lista img{
+    position: relative;
+    float: left;
+    padding-top: 0px;
+    margin-left: 8px;
+}
+
+#minha-lista-vazio .adicionar-lista .lbl-adicionar-lista{
+    position: relative;
+    float: left;
+    padding-top: 3px;
+    margin-left: 22px;
+}
+
+#minha-lista{
+	margin-top: 100px;
+	padding-bottom: 100px;
+	background-color: #f0f5f6;
+}
+
+#minha-lista .row-top{
+	margin-top: 70px;
+}
+
+#minha-lista h2{
+	text-align: left;
+    text-transform: none;
+    font-family: 'VWHeadlineOT-Black';
+    font-size: 56pt;
+	margin: 0;
+    padding: 0;
+    margin-bottom: 10px;
+}
+
+#minha-lista .btn-minha-lista{
+	padding: 10px;
+	padding-right: 15px;
+	padding-left: 15px;
+	position: relative;
+	float: left;
+	background-color: #3175ac;
+	margin-right: 10px;
+	font-size: 14pt;
+	font-family: 'VWHeadlineOT-Semibold';
+	color: #fff;
+}
+
+#minha-lista .btn-orcamento{
+    position: relative;
+    float: right;
+    background-color: #3175ac;
+    width: 250px;
+    height: 45px;
+    margin-top: 93px;
+}
+
+.box-btn-orcamento{
+	position: relative;
+	width: 100%;
+	height: 45px;
+}
+
+#minha-lista .btn-orcamento .label-orcamento{
+    font-size: 14pt;
+    font-family: 'VWHeadlineOT-Semibold';
+    color: #fff;
+    max-width: 265px;
+    line-height: 19pt;
+    position: relative;
+    float: left;
+    padding: 10px;
+    padding-left: 15px;
+    margin-right: 20px;
+}
+
+#minha-lista .btn-orcamento .separator-orcamento{
+	width: 1px;
+	height: 45px;
+	border-right: 1px solid #fff;
+	position: relative;
+	float: left;
+
+}
+
+#minha-lista .btn-orcamento .icon-orcamento{
+	text-align: center;
+}
+
+#minha-lista .btn-orcamento .icon-orcamento img{
+    margin: 0 auto;
+    margin-top: 10px;
+    max-height: 24px;
+}
+
+#acessorios{
+	padding-bottom: 40px;
+}
+
+#acessorios .row-acessorios{
+    margin: 5px;
+	margin-top: 20px;
+}
+
+#acessorios h2{
+	text-align: center;
+	color: #33434c;
+	font-size: 14pt;
+	margin-bottom: 60px;
+	font-family: 'VWHeadlineOT-Black';
+}
+
+#acessorios h4{
+    font-size: 16pt;
+    font-family: 'VWHeadlineOT-Black';
+    position: relative;
+    float: left;
+    width: 100%;
+    margin-top: 20px;
+}
+
+#acessorios h5{
+	font-size: 16pt;
+	margin:0px;
+}
+
+#acessorios h6{
+	font-size: 14pt;
+	color: #AFAFAF;
+	margin:0px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+#acessorios a{
+	text-decoration: none;
+	color:#000;
+}
+
+#acessorios a:hover{
+	text-decoration: none;
+	color:#000;
+}
+
+.add {
+    position: absolute;
+    height: 40px;
+    width: 180px;
+    text-align: center;
+    border: none;
+    color: #fff;
+    font-weight: 600;
+    font-size: 1.3em;
+    left: 50%;
+    top: 50%;
+    margin-left: -90px;
+    margin-top: -30px;
+    padding-top: 6px;
+}
+
+/* Email */
+
+#popup-email{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 2147483647;
+    height: 100%;
+    background-color: rgba(255,255,255,0.9);
+}
+
+#popup-email .row-pop-up{
+	margin-top: 250px;
+}
+
+#popup-email .box-email, #popup-email .box-ok{
+    border: 2px solid #cbd3d4;
+    border-radius: 2px;
+    background-color: #fff;
+    margin-right: 20%;
+    margin-left: 20%;
+    padding: 50px;
+}
+
+#popup-email .box-ok{
+	display: none;
+}
+
+#popup-email .btn-close-email{
+    position: relative;
+    float: right;
+    width: 100%;
+}
+
+#popup-email .btn-close-email img{
+	position: absolute;
+    top: -30px;
+    right: -30px;
+	z-index:5;
+	cursor: pointer;
+}
+
+#popup-email h2{
+    text-align: left;
+    text-transform: none;
+    font-family: 'VWHeadlineOT-Black';
+    font-size: 28pt;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 30px;
+}
+
+#popup-email h3{
+    text-align: left;
+    text-transform: none;
+    font-family: 'VWHeadlineOT-Book';
+    font-size: 12pt;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 30px;
+    line-height: 16pt;
+}
+
+#popup-email #email{
+	width: 100%;
+	font-family: 'VWHeadlineOT-Book';
+    font-size: 16pt;
+    border: 1px solid #cbd3d4;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+
+#popup-email .btn-enviar{
+    padding: 10px;
+    padding-right: 15px;
+    padding-left: 15px;
+    position: relative;
+    background-color: #3175ac;
+    margin-right: 10px;
+    font-size: 12pt;
+    font-family: 'VWHeadlineOT-Semibold';
+    color: #fff;
+    border:none;
+}
+
+#popup-email .btn-orcamento{
+	padding: 10px;
+    padding-right: 15px;
+    padding-left: 15px;
+    position: absolute;
+    background-color: #3175ac;
+    margin-right: 10px;
+    font-size: 14pt;
+    font-family: 'VWHeadlineOT-Semibold';
+    color: #fff;
+    border: none;
+    left: 50%;
+    margin-left: -180px;
+    width: 360px;
+}
+
+#popup-email .msg-error{
+    display: none;
+    color: #d2463c;
+    margin-top: 14px;
+    margin-left: 10px;
+    position: absolute;
+    bottom: 65px;
+    margin-left: 97px;
+}
+
+/* PlaceHolders */
+#popup-email #email::-webkit-input-placeholder {
+    color: #CBD3D4;
+}
+
+#popup-email #email:-moz-placeholder {
+    color: #CBD3D4;
+}
+
+#popup-email #email::-moz-placeholder {
+    color: #CBD3D4;
+}
+
+#popup-email #email:-ms-input-placeholder {
+    color: #CBD3D4;
+}
+
+/* Responsive Adjustments */
+
+@media screen and (max-width: 1366px){
+    #minha-lista, #minha-lista-vazio {
+        margin-top: 70px!important;
+    }
+}
+
+@media screen and (max-width: 1199px){
+    #minha-lista .btn-orcamento {
+        margin-top: 78px;
+    }
+    #minha-lista h2 {
+        font-size: 46pt;
+    }
+    #popup-email .msg-error{
+        display: none;
+        color: #d2463c;
+        position: relative;
+        float: left;
+        margin: 0;
+        bottom: 0;
+        margin-bottom: 15px;
+    }
+}
+
+@media screen and (max-width: 1024px){
+    #minha-lista .btn-orcamento {
+        margin-top: 117px;
+    }
+	#popup-email .box-email{
+		margin-right: 10%;
+		margin-left: 10%;
+	}
+    #minha-lista, #minha-lista-vazio {
+        margin-top: 50px!important;
+    }
+    #minha-lista .row-top {
+        margin-top: 15px;
+    }
+    #minha-lista h2, #minha-lista-vazio h2 {
+        margin-top: 60px;
+        font-size: 34pt;
+    }
+    #minha-lista-vazio h3 {
+        font-size: 16pt;
+    }
+}
+
+@media screen and (max-width: 991px){
+    #minha-lista .btn-orcamento .separator-orcamento {
+        width: 1px;
+        border-right: 1px solid #fff;
+        position: relative;
+        float: left;
+    }
+    #minha-lista .btn-orcamento {
+        position: relative;
+        float: left;
+        background-color: #3175ac;
+        width: 40%;
+        margin-top: 10px;
+    }
+    #minha-lista .btn-orcamento .label-orcamento {
+        width: 80%;
+        max-width: none;
+    }
+}
+
+@media screen and (max-width: 768px){
+    #popup-email #email {
+        font-size: 12pt;
+    }
+	#popup-email .box-email{
+		margin-right: 5%;
+		margin-left: 5%;
+	}
+    #minha-lista {
+        padding-bottom: 40px;
+    }
+    #popup-email .row-pop-up {
+        margin-top: 85px;
+    }
+    #popup-email .box-email, #popup-email .box-ok {
+        padding: 20px;
+    }
+    #popup-email h2 {
+        font-size: 14pt;
+        max-width: 80%;
+    }
+    #popup-email .btn-close-email img {
+        position: absolute;
+        top: 0px;
+        right: -0px;
+        z-index: 5;
+        height: 26px;
+        cursor: pointer;
+        background-color: #FFFFFF;
+        padding: 5px;
+        border: 1px solid #CBD3D4;
+    }
+    #popup-email .box-email, #popup-email .box-ok {
+        margin-right: 5%;
+        margin-left: 5%;
+        padding: 20px;
+    }
+    #popup-email .btn-orcamento {
+        padding: 5px;
+        padding-right: 15px;
+        padding-left: 15px;
+        position: absolute;
+        background-color: #3175ac;
+        margin-right: 10px;
+        font-size: 12pt;
+        font-family: 'VWHeadlineOT-Semibold';
+        color: #fff;
+        border: none;
+        left: 50%;
+        margin-left: -135px;
+        width: 270px;
+    }
+    #popup-email h3 {
+        text-align: left;
+        text-transform: none;
+        font-family: 'VWHeadlineOT-Book';
+        font-size: 12pt;
+        margin: 0;
+        padding: 0;
+        margin-bottom: 15px;
+        line-height: 16pt;
+    }
+}
+
+@media screen and (max-width: 600px){
+    #minha-lista .btn-orcamento {
+        position: relative;
+        float: right;
+        background-color: #3175ac;
+        width: 100%;
+        margin-top: 10px;
+    }
+}
+
+@media screen and (max-width: 400px){
+    #acessorios h4 {
+        font-size: 13pt;
+    }
+    #acessorios h5 {
+        font-size: 14pt;
+    }
+	#popup-email .box-email{
+		margin-right: 10px;
+		margin-left: 10px;
+	}
+    #minha-lista h2 {
+        font-size: 28pt;
+        margin-top: 20px;
+        margin-bottom: 18px;
+    }
+    #minha-lista .btn-orcamento .label-orcamento {
+        width: 75%;
+        max-width: none;
+        font-size: 15pt;
+        line-height: 13pt;
+        padding: 15px;
+    }
+    #minha-lista .btn-orcamento .icon-orcamento img {
+        margin-top: 11px;
+    }
+    #minha-lista .btn-orcamento {
+        height: 45px;
+    }
+    #minha-lista .btn-orcamento .separator-orcamento {
+        height: 45px!important;
+    }
+    #minha-lista .btn-orcamento .icon-orcamento img {
+        margin-top: 11px;
+        height: 28px;
+    }
+    #minha-lista .btn-minha-lista {
+        margin-bottom: 15px;
+    }
+    .add {
+        margin-top: -36px;
+    }
+    #minha-lista .btn-orcamento {
+        margin-top: 0px;
+    }
+    #minha-lista .btn-orcamento .separator-orcamento {
+        width: 1px;
+        height: 90px;
+        border-right: 1px solid #fff;
+        position: relative;
+        float: left;
+    }
+}

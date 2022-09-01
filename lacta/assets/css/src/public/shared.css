@@ -1,0 +1,458 @@
+body{
+    background-image: url(../../../images/shared/bg-blue.jpg);
+    background-position: center top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #3daee4;
+    overflow-x:hidden!important;
+}
+
+@media screen and (max-width: 1199px){
+    body{
+        background-image: url(../../../images/shared/bg-confetes.png), url(../../../images/shared/bg-blue.jpg);
+        background-position: center top, center top;
+        background-size: cover, cover;
+        background-repeat: no-repeat, no-repeat;
+        background-color: #3daee4;
+        overflow-x:hidden!important;
+    }
+}
+
+/* Resets */
+
+a{
+    text-decoration:none;
+    color: #fff;
+}
+
+a:hover{
+    text-decoration:none;
+    color: #fff;
+}
+
+/* Shared */
+
+.center{
+    text-align: center;
+}
+
+.img-center{
+    margin: 0 auto;
+}
+
+.box-relative{
+    position: relative;
+}
+
+.rotate-title-1 {
+    -webkit-transform: rotate(356deg);
+    -moz-transform: rotate(356deg);
+    -o-transform: rotate(356deg);
+    transform: rotate(356deg);
+}
+
+.rotate-title-2 {
+    -webkit-transform: rotate(2deg);
+    -moz-transform: rotate(2deg);
+    -o-transform: rotate(2deg);
+    transform: rotate(2deg);
+}
+
+/* ScrollReveal */
+
+.sr-maos-esquerda,
+.sr-maos-direita,
+.sr-left,
+.sr-right,
+.sr-top,
+.sr-bottom {
+    visibility: hidden;
+}
+
+/* Confetti */
+
+#confetti{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
+    filter: alpha(opacity=90);
+    -moz-opacity: 0.9;
+    -khtml-opacity: 0.9;
+    opacity: 0.9;
+    z-index: -1;
+}
+
+/* Fonts */
+
+@font-face {
+    font-family: 'grota_sans_alt_rdlight';
+    src: url('../../../fonts/latinotype_-_grotasansaltrd-light-webfont.woff2') format('woff2'),
+         url('../../../fonts/latinotype_-_grotasansaltrd-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'grota_sans_alt_rdlight_italic';
+    src: url('../../../fonts/latinotype_-_grotasansaltrd-lightit-webfont.woff2') format('woff2'),
+         url('../../../fonts/latinotype_-_grotasansaltrd-lightit-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'grota_sans_alt_rdmedium';
+    src: url('../../../fonts/latinotype_-_grotasansaltrd-medium-webfont.woff2') format('woff2'),
+         url('../../../fonts/latinotype_-_grotasansaltrd-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'grota_sans_alt_rdMdIt';
+    src: url('../../../fonts/latinotype_-_grotasansaltrd-mediumit-webfont.woff2') format('woff2'),
+         url('../../../fonts/latinotype_-_grotasansaltrd-mediumit-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'grota_sans_alt_rdsemi_bold';
+    src: url('../../../fonts/latinotype_-_grotasansaltrd-semibold-webfont.woff2') format('woff2'),
+         url('../../../fonts/latinotype_-_grotasansaltrd-semibold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'grota_sans_alt_rdSBdIt';
+    src: url('../../../fonts/latinotype_-_grotasansaltrd-semiboldit-webfont.woff2') format('woff2'),
+         url('../../../fonts/latinotype_-_grotasansaltrd-semiboldit-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'grota_sans_alt_rdthin';
+    src: url('../../../fonts/latinotype_-_grotasansaltrd-thin-webfont.woff2') format('woff2'),
+         url('../../../fonts/latinotype_-_grotasansaltrd-thin-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'grota_sans_alt_rdthin_italic';
+    src: url('../../../fonts/latinotype_-_grotasansaltrd-thinit-webfont.woff2') format('woff2'),
+         url('../../../fonts/latinotype_-_grotasansaltrd-thinit-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'grota_sans_alt_rdbold';
+    src: url('../../../fonts/latinotype_-_grotasansaltrd-bold-webfont.woff2') format('woff2'),
+         url('../../../fonts/latinotype_-_grotasansaltrd-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'grota_sans_alt_rdregular';
+    src: url('../../../fonts/latinotype_-_grotasansaltrd-webfont.woff2') format('woff2'),
+         url('../../../fonts/latinotype_-_grotasansaltrd-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'grota_sans_alt_rdblack';
+    src: url('../../../fonts/latinotype_-_grotasansaltrd-black-webfont.woff2') format('woff2'),
+         url('../../../fonts/latinotype_-_grotasansaltrd-black-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'grota_sans_alt_rdblack_italic';
+    src: url('../../../fonts/latinotype_-_grotasansaltrd-blackit-webfont.woff2') format('woff2'),
+         url('../../../fonts/latinotype_-_grotasansaltrd-blackit-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'grota_sans_alt_rdextra_bold';
+    src: url('../../../fonts/latinotype_-_grotasansaltrd-extrabold-webfont.woff2') format('woff2'),
+         url('../../../fonts/latinotype_-_grotasansaltrd-extrabold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'grota_sans_alt_rdbook';
+    src: url('../../../fonts/latinotype_-_grotasansaltrd-book-webfont.woff2') format('woff2'),
+         url('../../../fonts/latinotype_-_grotasansaltrd-book-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Nav Desktop */
+
+nav{
+    position:relative;
+    width:100%;
+    height: 105px;
+}
+
+nav .menu-desktop{
+    margin-top: 35px;
+    margin-right: 20px;
+    position: absolute;
+    width: 100%;
+    z-index: 99999;
+}
+
+nav .menu-desktop ul{
+    margin: 0px;
+    padding: 0px;
+}
+
+nav .menu-desktop ul li{
+    list-style: none;
+    float:right;
+    position: relative;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'grota_sans_alt_rdblack';
+    color : #fff;
+    font-size: 12pt;
+    padding-top: 26px;
+}
+
+nav .menu-desktop ul li.double-line{
+    padding-top: 16px!important;
+}
+
+nav .menu-desktop .bg-menu-1{
+    background-image: url('../../../images/shared/bg-menu-1.png');
+    height: 70px;
+    width: 150px;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: all 0.3s ease 0s;
+}
+
+nav .menu-desktop .bg-menu-actived-1{
+    background-image: url('../../../images/shared/bg-menu-actived-1.png');
+    height: 70px;
+    width: 150px;
+    color: #00398c;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: all 0.3s ease 0s;
+}
+
+nav .menu-desktop .bg-menu-1:hover{
+    -ms-transform: rotate(6deg);
+    -webkit-transform: rotate(6deg);
+    transform: rotate(6deg);
+}
+
+nav .menu-desktop .bg-menu-2{
+    background-image: url('../../../images/shared/bg-menu-2.png');
+    height: 70px;
+    width: 150px;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: all 0.6s ease 0s;
+}
+
+nav .menu-desktop .bg-menu-actived-2{
+    background-image: url('../../../images/shared/bg-menu-actived-2.png');
+    height: 70px;
+    width: 150px;
+    color: #00398c;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: all 0.6s ease 0s;
+}
+
+nav .menu-desktop .bg-menu-2:hover{
+    -ms-transform: rotate(-4deg);
+    -webkit-transform: rotate(-4deg);
+    transform: rotate(-4deg);
+}
+
+/* Nav Mobile */
+
+nav .menu-mobile, nav .menu-open-mobile{
+    display: none;
+}
+
+nav .menu-item-actived{
+    text-decoration: underline;
+}
+
+nav .menu-mobile .menu-btn .icon-closed{
+    display: none;
+}
+
+nav .menu-mobile .menu-btn{
+    margin: 0px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 11;
+}
+
+nav .menu-open-mobile{
+    display: none;
+    position: relative;
+    float: left;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    position: absolute;
+    float: left;
+    background-color: rgba(255,203,5,0.9);
+    padding-top: 80px;
+    padding-bottom: 25px;
+    z-index:9;
+}
+
+nav .menu-mobile .menu-btn li{
+    list-style: none;
+}
+
+nav .menu-open-mobile li{
+    width: 100%;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+nav .menu-open-mobile li a {
+    font-family: 'grota_sans_alt_rdsemi_bold';
+    color: #00398b;
+    font-size: 20pt;
+}
+
+nav .menu-open-mobile li ul{
+    margin: 0;
+    padding: 0;
+}
+
+nav .menu-open-mobile li ul li {
+    list-style: none;
+    position: relative;
+    float: left;
+    margin: 0;
+    padding: 0;
+    margin-right: 10px;
+    width: 50px;
+}
+
+nav .menu-open-mobile li .table-horizontal-list {
+    display: table;
+    margin: 0 auto;
+    text-align: center;
+}
+
+nav .menu-open-mobile li .table-horizontal-list ul.horizontal-list {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+nav .menu-open-mobile li .table-horizontal-list ul.horizontal-list li {
+    display: inline;
+}
+
+/* Footer */
+
+footer{
+    margin-top: 50px;
+}
+
+footer p{
+    text-align: center;
+    font-size: 10pt;
+    color: #fff;
+    line-height: 14pt;
+    font-family: 'grota_sans_alt_rdbook';
+}
+
+footer .img-mondelez {
+    max-height: 90px;
+}
+
+@media screen and (max-width: 1280px){
+    nav .menu-desktop {
+        margin-top: 15px;
+    }
+    nav .menu-desktop .bg-menu-1{
+        background-image: url('../../../images/shared/bg-menu-mini-1.png');
+        height: 56px;
+        width: 120px;
+    }
+    nav .menu-desktop .bg-menu-actived-1{
+        background-image: url('../../../images/shared/bg-menu-actived-mini-1.png');
+        height: 56px;
+        width: 120px;
+    }
+    nav .menu-desktop .bg-menu-2{
+        background-image: url('../../../images/shared/bg-menu-mini-2.png');
+        height: 56px;
+        width: 120px;
+    }
+    nav .menu-desktop .bg-menu-actived-2{
+        background-image: url('../../../images/shared/bg-menu-actived-mini-2.png');
+        height: 56px;
+        width: 120px;
+    }
+    nav .menu-desktop ul li {
+        list-style: none;
+        float: right;
+        position: relative;
+        text-transform: uppercase;
+        text-align: center;
+        font-family: 'grota_sans_alt_rdblack';
+        color: #fff;
+        font-size: 10pt;
+        padding-top: 21px;
+    }
+    nav .menu-desktop ul li.double-line {
+        padding-top: 11px!important;
+    }
+}
+
+@media screen and (max-width: 991px){
+    footer .margin-p {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    nav .menu-desktop {
+        display:none;
+    }
+    nav .menu-mobile {
+        display:block;
+    }
+    nav{
+        position: fixed;
+        width: 100%;
+        top: 0;
+        z-index:9999;
+    }
+}
+
+@media screen and (max-width: 768px){
+    footer .margin-p {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+}

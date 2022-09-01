@@ -1,0 +1,180 @@
+#sobre{
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 0!important;
+    background-image: url("../../images/sobre/sobre_bvaley.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top:80px;
+}
+
+#sobre h2{
+    color:#fff;
+    margin-bottom: 25px;
+    margin-top: 100px;
+    text-transform: uppercase;
+}
+
+#sobre h3{
+    color:#fff;
+    margin-bottom: 45px;
+    text-transform: uppercase;
+}
+
+.row-sobre{
+    margin-bottom: 100px;
+}
+
+.row-sobre p{
+    color:#fff;
+    margin-right: 10%;
+    text-align: left;
+}
+
+#mapa{
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 0!important;
+    background-image: url("../../images/sobre/sobre_mapa.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#mapa h2{
+    color:#fff;
+    margin-bottom: 25px;
+    margin-top: 100px;
+    text-transform: uppercase;
+}
+
+#mapa p{
+    color:#fff;
+    margin-bottom: 45px;
+}
+
+.row-mapa{
+    margin-bottom: 40px;
+}
+
+#experiencias{
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 0!important;
+    background-image: url("../../images/sobre/sobre_experiencias.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#experiencias h2{
+    color:#fff;
+    margin-bottom: 10px;
+    margin-top: 100px;
+    text-transform: uppercase;
+}
+
+#experiencias h3{
+    color:#fff;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    text-align: left;
+}
+
+#experiencias p{
+    color:#fff;
+}
+
+.row-exp p{
+    text-align: left;
+}
+
+.img-exp{
+    margin-top: 30px;
+}
+
+.row-exp{
+    margin-bottom: 40px;
+}
+
+#mapa h2{
+    color:#fff;
+    margin-bottom: 25px;
+    margin-top: 100px;
+    text-transform: uppercase;
+}
+
+#detalhes{
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 0!important;
+    background-image: url("../../images/sobre/sobre_detalhes.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#detalhes h2{
+    color:#fff;
+    text-align: left;
+}
+
+#detalhes p{
+    color:#fff;
+    text-align: left;
+}
+
+.line{
+    width: 100%;
+    border-bottom: 2px solid #e43c25;
+    height: 20px;
+    text-align: right;
+    margin-top:30px;
+}
+
+.lbl-line{
+    position: relative;
+    float:right;
+    color:#fff;
+    text-transform: uppercase;
+}
+
+.img-line{
+    position: relative;
+    margin-right: -5px;
+    float: right;
+    margin-top: -4px;
+}
+
+.link-exp h3:hover{
+    transition: all 0.5s ease 0s!important;
+}
+
+.link-exp:hover{
+    color:#ED972F!important;
+}
+
+/* Responsive */
+
+@media screen and (max-width: 1199px){
+    .row-sobre p{
+        margin-top:30px;
+    }
+}
+
+@media screen and (max-width: 991px){
+    #experiencias h3 {
+        text-align: center!important;
+    }
+    #detalhes h2 {
+        text-align: center!important;
+    }
+    #detalhes img {
+        margin-bottom: 30px!important;
+    }
+}

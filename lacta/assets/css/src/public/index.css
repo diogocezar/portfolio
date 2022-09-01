@@ -1,0 +1,726 @@
+/* Header */
+
+header .container-margin{
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-top: 80px;
+}
+
+header .img-achou{
+	max-width: 480px;
+}
+
+/* Como vai funcionar? */
+
+#como-vai-funcionar .maos-esquerda .mao-esquerda{
+    transform-origin: 0% 50%!important;
+    -webkit-transform-origin: 0% 50%!important;
+    -ms-transform-origin: 0% 50%!important;
+    transform: rotate(-2deg);
+}
+
+#como-vai-funcionar .maos-direita .mao-direita{
+    transform-origin: 100% 50%!important;
+    -webkit-transform-origin: 100% 50%!important;
+    -ms-transform-origin: 100% 50%!important;
+}
+
+
+#como-vai-funcionar .mao-anima-1{
+	animation-duration: 1.2s;
+	-webkit-animation-duration: 1.2s;
+
+	-webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+}
+
+#como-vai-funcionar .mao-anima-2{
+	animation-duration: 0.8s;
+	-webkit-animation-duration: 0.8s;
+
+	-webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+}
+
+
+#como-vai-funcionar .mao-anima-3{
+	animation-duration: 1.8s;
+	-webkit-animation-duration: 1.8s;
+
+	-webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+}
+
+#como-vai-funcionar .mao-animada{
+	animation-name: animacao-mao;
+	-webkit-animation-name: animacao-mao;
+
+	animation-iteration-count: infinite;
+	-webkit-animation-iteration-count: infinite;
+}
+
+@keyframes animacao-mao {
+	0% {
+		transform: rotate(0deg);
+	}
+	50% {
+		transform: rotate(5deg);
+	}
+	100%{
+		transform: rotate(0deg);
+	}
+}
+
+@-webkit-keyframes animacao-mao {
+	0% {
+		transform: rotate(0deg);
+	}
+	50% {
+		transform: rotate(5deg);
+	}
+	100%{
+		transform: rotate(0deg);
+	}
+}
+
+#como-vai-funcionar h2{
+    text-align: center;
+    color: #fff;
+    font-family: 'grota_sans_alt_rdextra_bold';
+    text-transform: uppercase;
+    margin-top: 27px;
+}
+
+#como-vai-funcionar h2 .first-line{
+    position: relative;
+    clear: both;
+    float: left;
+    width: 100%;
+    font-size: 55pt;
+}
+
+#como-vai-funcionar h2 .second-line{
+    position: relative;
+    clear: both;
+    font-size: 47pt;
+    line-height: 0.65!important;
+    width: 100%;
+    float: left;
+}
+
+#como-vai-funcionar .box{
+	margin-top: 15px;
+	min-height: 210px;
+    margin-left: 28%;
+    width: 506px;
+}
+
+#como-vai-funcionar .box h2{
+	text-transform: none;
+	font-size: 18pt;
+	font-family: 'grota_sans_alt_rdbook';
+    padding-left: 25%!important;
+    padding-right: 25%!important;
+	width:100%;
+	clear:both;
+}
+
+#como-vai-funcionar .box h2 strong{
+	font-family: 'grota_sans_alt_rdsemi_bold';
+}
+
+#como-vai-funcionar .box-1{
+	background-color: #00398b;
+}
+
+#como-vai-funcionar .box-1:after {
+	content: "";
+    position: absolute;
+    border-left: 80px solid transparent;
+    border-right: 80px solid transparent;
+    top: 100%;
+    left: 50%;
+    margin-left: -80px;
+}
+
+#como-vai-funcionar .box-1:after{
+    border-top: 40px solid #00398B;
+    margin-top: 0px;
+    z-index: 100000000;
+}
+
+#como-vai-funcionar .box-1 h2:before{
+    content: url('../../../images/index/icon-1.png');
+    height: 70px;
+    margin: 0 auto;
+    position: relative;
+    float: left;
+    width: 100%;
+    margin-bottom: 18px;
+}
+
+#como-vai-funcionar .box-1 .link-compre{
+	text-align: center;
+	font-family: 'grota_sans_alt_rdbook';
+	font-size: 13pt;
+}
+
+#como-vai-funcionar .box-1 .link-compre a{
+	text-decoration: underline;
+}
+
+#como-vai-funcionar .box-2{
+	background-color: #fdd606;
+}
+
+#como-vai-funcionar .box-2:after {
+	content: "";
+    position: absolute;
+    border-left: 80px solid transparent;
+    border-right: 80px solid transparent;
+    top: 100%;
+    left: 50%;
+    margin-left: -80px;
+}
+
+#como-vai-funcionar .box-2:after{
+    border-top: 40px solid #fdd606;
+    margin-top: 0px;
+    z-index: 100000000;
+}
+
+#como-vai-funcionar .box-2 h2:before{
+    content: url('../../../images/index/icon-2.png');
+    height: 70px;
+    margin: 0 auto;
+    position: relative;
+    float: left;
+    width: 100%;
+    margin-bottom: 18px;
+    margin-top: 15px;
+}
+
+#como-vai-funcionar .box-2 h2{
+	color: #00398b;
+}
+
+#como-vai-funcionar .box-2 .folder-1{
+    background-image: url('../../../images/index/folder-1.png');
+    width: 187px;
+    height: 186px;
+    position: absolute;
+    top: 5px;
+    left: -60px;
+}
+
+#como-vai-funcionar .box-2 .folder-2{
+    background-image: url('../../../images/index/folder-2.png');
+    width: 184px;
+    height: 207px;
+    position: absolute;
+    right: 0;
+    top: 5px;
+    margin-right: -35px;
+}
+
+#como-vai-funcionar .box-3{
+	background-color: #44c8f5;
+}
+
+#como-vai-funcionar .box-3:after {
+	content: "";
+    position: absolute;
+    border-left: 80px solid transparent;
+    border-right: 80px solid transparent;
+    top: 100%;
+    left: 50%;
+    margin-left: -80px;
+}
+
+#como-vai-funcionar .box-3:after{
+    border-top: 40px solid #44c8f5;
+    margin-top: 0px;
+    z-index: 99;
+}
+
+#como-vai-funcionar .box-3 h2{
+	padding-left: 16%!important;
+	padding-right: 16%!important;
+	color: #00398b;
+}
+
+#como-vai-funcionar .box-3 h2:before{
+    content: url('../../../images/index/icon-3.png');
+    height: 70px;
+    margin: 0 auto;
+    position: relative;
+    float: left;
+    width: 100%;
+    margin-bottom: 18px;
+    margin-top: 15px;
+}
+
+#como-vai-funcionar .box-4{
+	background-color: #fb02aa;
+	margin-bottom: 40px;
+}
+
+#como-vai-funcionar .box-4 h2{
+	padding-left: 10%!important;
+	padding-right: 10%!important;
+	color: #fff;
+	text-decoration: underline;
+	font-family: 'grota_sans_alt_rdsemi_bold';
+}
+
+#como-vai-funcionar .box-4 h2:before{
+    content: url('../../../images/index/icon-4.png');
+    height: 155px;
+    margin: 0 auto;
+    position: relative;
+    float: left;
+    width: 100%;
+    margin-bottom: 18px;
+    margin-top: 15px;
+}
+
+#como-vai-funcionar .box-4 .small{
+    text-align: center;
+    color: #fff;
+    font-family: 'grota_sans_alt_rdbook';
+    font-size: 12pt;
+    line-height: 12pt;
+    margin-top: -7px;
+    padding-bottom: 15px;
+}
+
+#como-vai-funcionar .container-fluid{
+	padding: 0px!important;
+}
+
+/* Esquerda */
+
+#como-vai-funcionar .maos-esquerda{
+	position: relative;
+	float:left;
+	margin-left: -10px;
+}
+
+.maos-esquerda .mao-esquerda{
+	position:absolute;
+	left: 0;
+}
+
+#como-vai-funcionar .mao-esquerda-1{
+	background-image: url('../../../images/index/mao-esquerda-1.png');
+	width: 625px;
+	height: 320px;
+}
+
+#como-vai-funcionar .mao-esquerda-2{
+	background-image: url('../../../images/index/mao-esquerda-2.png');
+	width: 625px;
+	height: 254px;
+	top: 252px;
+	background-position: top;
+}
+
+#como-vai-funcionar .mao-esquerda-3{
+	background-image: url('../../../images/index/mao-esquerda-3.png');
+	width: 625px;
+	height: 285px;
+	top: 460px;
+}
+
+#como-vai-funcionar .mao-esquerda-4{
+	background-image: url('../../../images/index/mao-esquerda-4.png');
+	width: 625px;
+	height: 285px;
+	top: 665px;
+}
+
+#como-vai-funcionar .mao-esquerda-5{
+	background-image: url('../../../images/index/mao-esquerda-5.png');
+	width: 625px;
+	height: 194px;
+	top: 900px;
+}
+
+/* Direita */
+
+#como-vai-funcionar .maos-direita{
+	position: relative;
+	float:right;
+	margin-right: -10px;
+}
+
+.maos-direita .mao-direita{
+	position:absolute;
+	right: 0;
+}
+
+#como-vai-funcionar .mao-direita-1{
+	background-image: url('../../../images/index/mao-direita-1.png');
+	width: 625px;
+	height: 291px;
+	top: 60px;
+}
+
+#como-vai-funcionar .mao-direita-2{
+	background-image: url('../../../images/index/mao-direita-2.png');
+	width: 625px;
+	height: 361px;
+	top: 252px;
+}
+
+#como-vai-funcionar .mao-direita-3{
+	background-image: url('../../../images/index/mao-direita-3.png');
+	width: 625px;
+	height: 181px;
+	top: 540px;
+}
+
+#como-vai-funcionar .mao-direita-4{
+	background-image: url('../../../images/index/mao-direita-4.png');
+	width: 625px;
+	height: 300px;
+	top: 665px;
+}
+
+#como-vai-funcionar .mao-direita-5{
+	background-image: url('../../../images/index/mao-direita-5.png');
+	width: 625px;
+	height: 243px;
+	top: 900px;
+}
+
+/* Mobile */
+
+#maos-mobile .col-maos-mobile{
+	padding:0px;
+	margin: 0px;
+}
+
+#maos-mobile .col-maos-mobile .img-maos-mobile{
+	padding:0px;
+	margin: 0px;
+	width:100%;
+}
+
+/* Footer */
+
+footer .footer-mobile{
+	font-family: 'grota_sans_alt_rdmedium';
+    font-weight: bold;
+    font-size: 13pt;
+    color: #fff;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    line-height: 16pt;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+footer .footer-mobile .color-yelow{
+	color: #ffcd0b;
+}
+
+/* Responsive Adjustments */
+
+@media screen and (max-width: 1780px){
+	.maos-esquerda .mao-esquerda {
+	    position: absolute;
+	    width: 435px!important;
+	    background-position: right center;
+	}
+	.maos-direita .mao-direita {
+	    position: absolute;
+		right: 0px;
+		max-width: 480px;
+	}
+}
+
+@media screen and (max-width: 1510px){
+	.maos-esquerda .mao-esquerda {
+	    position: absolute;
+	    width: 375px!important;
+	    background-position: right center;
+	}
+	.maos-direita .mao-direita {
+		position: absolute;
+		right: 0px;
+		max-width: 420px;
+	}
+	header .img-achou{
+		max-width: 340px;
+	}
+}
+
+@media screen and (max-width: 1340px){
+	.maos-esquerda .mao-esquerda {
+	    position: absolute;
+	    width: 375px!important;
+	    background-position: right center;
+	}
+	.maos-direita .mao-direita {
+		position: absolute;
+		right: 0px;
+		max-width: 380px;
+	}
+}
+
+@media screen and (max-width: 1280px){
+	#como-vai-funcionar h2 .first-line {
+	    font-size: 42pt;
+	}
+	#como-vai-funcionar h2 .second-line {
+	    font-size: 36pt;
+	}
+	#como-vai-funcionar .box {
+	    margin-left: 30%;
+	    width: 460px;
+	}
+	#como-vai-funcionar .box h2 {
+	    font-size: 16pt;
+	}
+}
+
+@media screen and (max-width: 1199px){
+	header .container-margin {
+	    margin-left: 5%;
+	    margin-right: 5%;
+	    margin-top: 10px;
+	}
+	.table-horizontal-list {
+		display: table!important;
+		margin: 0 auto!important;
+		text-align: center!important;
+	}
+	.horizontal-list {
+		margin: 0px!important;
+		padding: 0px!important;
+		list-style: none!important;
+	}
+	.horizontal-list li {
+		display: inline!important;
+	}
+	.maos-direita .mao-direita {
+		position: absolute;
+		right: 0px;
+		max-width: 405px;
+	}
+	#como-vai-funcionar .box {
+	    margin-left: 26%;
+	    padding-top: 1px;
+	}
+	header .img-logo {
+	    max-width: 480px;
+	}
+	header .img-achou {
+	    max-width: 300px;
+	}
+	.maos-esquerda .mao-esquerda {
+	    position: absolute;
+	    width: 355px!important;
+	    background-position: right center;
+	}
+	.maos-direita .mao-direita {
+		position: absolute;
+		right: 0px;
+		max-width: 340px;
+	}
+
+	/* Maos  Direita Mini */
+
+	#como-vai-funcionar .mao-direita-1{
+		background-image: url('../../../images/index/mao-direita-mini-1.png');
+		width: 406px;
+		height: 189px;
+		top: 60px;
+	}
+	#como-vai-funcionar .mao-direita-2{
+		background-image: url('../../../images/index/mao-direita-mini-2.png');
+		width: 406px;
+		height: 235px;
+		top: 252px;
+	}
+	#como-vai-funcionar .mao-direita-3{
+		background-image: url('../../../images/index/mao-direita-mini-3.png');
+		width: 406px;
+		height: 118px;
+		top: 540px;
+	}
+	#como-vai-funcionar .mao-direita-4{
+		background-image: url('../../../images/index/mao-direita-mini-4.png');
+		width: 406px;
+		height: 195px;
+		top: 665px;
+	}
+	#como-vai-funcionar .mao-direita-5{
+		background-image: url('../../../images/index/mao-direita-mini-5.png');
+		width: 406px;
+		height: 158px;
+		top: 900px;
+	}
+
+	/* Maos  Esquerda Mini */
+
+	#como-vai-funcionar .mao-esquerda-1{
+		background-image: url('../../../images/index/mao-esquerda-mini-1.png');
+		width: 406px;
+		height: 208px;
+	}
+	#como-vai-funcionar .mao-esquerda-2{
+		background-image: url('../../../images/index/mao-esquerda-mini-2.png');
+		width: 406px;
+		height: 165px;
+		top: 252px;
+	}
+	#como-vai-funcionar .mao-esquerda-3{
+		background-image: url('../../../images/index/mao-esquerda-mini-3.png');
+		width: 406px;
+		height: 185px;
+		top: 460px;
+	}
+	#como-vai-funcionar .mao-esquerda-4{
+		background-image: url('../../../images/index/mao-esquerda-mini-4.png');
+		width: 406px;
+		height: 185px;
+		top: 665px;
+	}
+	#como-vai-funcionar .mao-esquerda-5{
+		background-image: url('../../../images/index/mao-esquerda-mini-5.png');
+		width: 406px;
+		height: 126px;
+		top: 900px;
+	}
+}
+
+@media screen and (max-width: 1165px){
+	.maos-esquerda .mao-esquerda {
+	    position: absolute;
+	    width: 330px!important;
+	    background-position: right center;
+	}
+	.maos-direita .mao-direita {
+		position: absolute;
+		right: 0px;
+		max-width: 260px;
+	}
+}
+
+@media screen and (max-width: 991px){
+	#como-vai-funcionar .maos-esquerda, #como-vai-funcionar .maos-direita{
+		display: none;
+	}
+	#como-vai-funcionar .box {
+	    margin-left: 19%;
+	    padding-top: 1px;
+	}
+	header .container-margin{
+		margin-left: 15px;
+		margin-right: 15px;
+		margin-top: 65px;
+	}
+	header .img-logo{
+		max-width: 380px;
+	}
+}
+
+@media screen and (max-width: 768px){
+	.img-mondelez {
+		max-width: 200px;
+	}
+	#como-vai-funcionar .box {
+	    margin-left: 15%;
+	    width: 70%;
+	    padding-top: 1px;
+	}
+	header .img-achou{
+		max-width: 300px;
+	}
+	#como-vai-funcionar h2 .first-line {
+	    font-size: 40pt;
+	}
+	#como-vai-funcionar h2 .second-line {
+	    font-size: 34pt;
+	}
+	#como-vai-funcionar .box h2{
+	    padding-left: 20%!important;
+	    padding-right: 20%!important;
+	}
+}
+
+@media screen and (max-width: 550px){
+	#como-vai-funcionar .box h2 {
+	    font-size: 14pt;
+	}
+	#como-vai-funcionar .box-1 .link-compre {
+	    font-size: 10pt;
+	}
+	#como-vai-funcionar .box-2 .folder-1,  #como-vai-funcionar .box-2 .folder-2{
+		display: none;
+	}
+	footer p {
+	    font-size: 7pt;
+	    line-height: 10pt;
+	}
+    footer .img-mondelez {
+        max-height: 50px;
+    }
+}
+
+@media screen and (max-width: 480px){
+	header .img-logo, header .img-achou{
+		max-width: 260px;
+		margin-bottom: 20px;
+	}
+	#como-vai-funcionar .box {
+	    min-height: 180px;
+	}
+	#como-vai-funcionar .box-1 h2:before {
+	    content: url('../../../images/index/icon-1-mini.png');
+	    height: 50px;
+	    margin: 0 auto;
+	    position: relative;
+	    float: left;
+	    width: 100%;
+	    margin-bottom: 5px;
+	}
+	#como-vai-funcionar .box-2 h2:before {
+	    content: url('../../../images/index/icon-2-mini.png');
+	    height: 50px;
+	    margin: 0 auto;
+	    position: relative;
+	    float: left;
+	    width: 100%;
+	    margin-bottom: 5px;
+	    margin-top: 10px;
+	}
+	#como-vai-funcionar .box-3 h2:before {
+	    content: url('../../../images/index/icon-3-mini.png');
+	    height: 50px;
+	    margin: 0 auto;
+	    position: relative;
+	    float: left;
+	    width: 100%;
+	    margin-bottom: 5px;
+	    margin-top: 15px;
+	}
+	#como-vai-funcionar .box-4 h2:before {
+	    content: url('../../../images/index/icon-4-mini.png');
+	    height: 96px;
+	    margin: 0 auto;
+	    position: relative;
+	    float: left;
+	    width: 100%;
+	    margin-bottom: 18px;
+	    margin-top: 15px;
+	}
+}
+
+@media screen and (max-width: 380px){
+	header .img-logo, header .img-achou{
+		max-width: 100%;
+	}
+}

@@ -1,0 +1,253 @@
+/* Busca */
+
+.search-menu:after {
+  content: "";
+  position: absolute;
+  bottom: -0px;
+  left: -0px;
+}
+
+.line-bottom{
+	position: absolute;
+	right: 0px;
+	bottom: 0px;
+	height: 3px;
+	width: 100%;
+	background-color: #3175ac;
+	z-index:10;
+}
+
+.line-bottom-mask{
+	position: absolute;
+	right: 0px;
+	bottom: 0px;
+	height: 3px;
+	width: 100%;
+	background-color: #fff;
+	z-index:10;
+}
+
+#busca{
+	margin-top: 100px;
+	padding-bottom: 160px;
+}
+
+#busca.sem-resultados{
+	padding-bottom: 20px!important;
+}
+
+#busca h2{
+	text-align: center;
+	text-transform: none;
+	margin-top: 100px;
+	margin-bottom: 10px;
+	font-family: 'VWHeadlineOT-Black';
+	font-size: 56pt;
+	color: #3175ac;
+}
+
+#busca h3 {
+    text-align: center;
+    text-transform: none;
+    margin-bottom: 100px;
+    font-family: 'VWHeadlineOT-Book';
+    font-size: 36pt;
+    color: #3175ac;
+}
+
+#busca .underline{
+	text-decoration: underline;
+}
+
+#busca .busca-resultados{
+	position: absolute;
+	left: 50%;
+	width: 250px;
+	margin-left: -125px;
+	text-align: center;
+	padding: 15px;
+	background-color: #3175ac;
+	color: #fff;
+	font-size: 14pt;
+	margin-top: 20px;
+	padding-top: 17px;
+}
+
+.bg-gray{
+	background-color: #e3ebed;
+}
+
+.line{
+	position: relative;
+	float: left;
+	width: 100%;
+	margin-bottom: 10px;
+	border-bottom: 1px solid #cbd3d4;
+}
+
+#resultados{
+	padding-bottom: 40px;
+}
+
+#resultados h2{
+	text-align: center;
+	color: #33434c;
+	font-size: 14pt;
+	margin-top: 60px;
+	margin-bottom: 60px;
+	font-family: 'VWHeadlineOT-Black';
+}
+
+#resultados h5{
+	font-size: 16pt;
+	font-family: 'VWHeadlineOT-Black';
+}
+
+#resultados h6{
+	font-size: 16pt;
+}
+
+#resultados img{
+	margin: 0 auto;
+    transition: all 0.5s ease 0s!important;
+}
+
+#resultados img:hover{
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+    filter: alpha(opacity=80);
+    -moz-opacity: 0.8;
+    -khtml-opacity: 0.8;
+    opacity: 0.8;
+}
+
+
+#resultados a{
+	text-decoration: none;
+	color:#000;
+}
+
+#resultados a:hover{
+	text-decoration: none;
+	color:#000;
+}
+
+#filtrar-modelos {
+    padding-bottom: 100px;
+}
+
+#filtrar-modelos h2{
+	text-align: center;
+	text-transform: none;
+	margin-top: 100px;
+	margin-bottom: 80px;
+	font-family: 'VWHeadlineOT-Black';
+	font-size: 36pt;
+}
+
+#filtrar-modelos #cars .disabled{
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+	filter: alpha(opacity=50);
+	-moz-opacity: 0.5;
+	-khtml-opacity: 0.5;
+	opacity: 0.5;
+}
+
+#filtrar-modelos #cars .item a{
+	text-decoration: none;
+	color:#000;
+}
+
+#filtrar-modelos #cars .item a:hover{
+	text-decoration: none;
+	color:#000;
+}
+
+#filtrar-modelos #cars .item h3{
+	text-align: center;
+	color: #000;
+	font-family: 'VWHeadlineOT-Semibold';
+}
+
+@media screen and (max-width: 1366px){
+    #busca {
+        margin-top: 70px;
+    }
+}
+
+@media screen and (max-width: 767px){
+	#filtrar-modelos {
+	    padding-bottom: 16px;
+	}
+	.owl-custom-navigation-btn.btn-prev, .owl-custom-navigation-btn.btn-prev {
+	    bottom: -87px!important;
+	}
+	.owl-custom-navigation-btn.btn-next, .owl-custom-navigation-btn.btn-next {
+	    bottom: -87px!important;
+	}
+}
+
+@media screen and (max-height: 870px){
+	#busca {
+	    margin-top: 70px;
+	    padding-bottom: 135px;
+	}
+	#busca h2 {
+		font-size: 40pt;
+	}
+}
+
+@media screen and (max-height: 800px){
+	#filtrar-modelos h2 {
+	    text-align: center;
+	    text-transform: none;
+	    margin-top: 60px;
+	    margin-bottom: 40px;
+	    font-family: 'VWHeadlineOT-Black';
+	    font-size: 28pt;
+	}
+}
+
+@media screen and (max-width: 1024px){
+	#busca {
+	    margin-top: 50px;
+	    padding-bottom: 135px;
+	}
+}
+
+@media screen and (max-width: 768px){
+	#resultados h2 {
+	    margin-top: 60px!important;
+	}
+	#resultados h5 {
+    	font-size: 12pt;
+    	min-height: auto!important;
+	}
+	#resultados h6 {
+	    font-size: 14pt;
+	}
+	#filtrar-modelos h2 {
+		text-align: center;
+		text-transform: none;
+		margin-top: 30px;
+		margin-bottom: 20px;
+	    font-family: 'VWHeadlineOT-Black';
+	    font-size: 19pt;
+	}
+	#busca h2 {
+	    text-align: center;
+	    text-transform: none;
+	    margin-top: 60px;
+	    margin-bottom: 20px;
+	    font-family: 'VWHeadlineOT-Black';
+	    font-size: 22pt;
+	    color: #3175ac;
+	}
+	#busca h3 {
+	    text-align: center;
+	    text-transform: none;
+	    margin-bottom: 50px;
+	    font-family: 'VWHeadlineOT-Book';
+	    font-size: 16pt;
+	    color: #3175ac;
+	}
+}

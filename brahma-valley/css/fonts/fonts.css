@@ -1,0 +1,21 @@
+@font-face {
+    font-family: 'co_headlineregular';
+    src: url('../../fonts/cohead-webfont.eot');
+    src: url('../../fonts/cohead-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../../fonts/cohead-webfont.woff2') format('woff2'),
+         url('../../fonts/cohead-webfont.woff') format('woff'),
+         url('../../fonts/cohead-webfont.ttf') format('truetype'),
+         url('../../fonts/cohead-webfont.svg#co_headlineregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'conv_brothers';
+    src: url('../../fonts/ufonts_com_brothers.eot');
+    src: url('../../fonts/ufonts_com_brothers.eot') format('embedded-opentype'),
+         url('../../fonts/ufonts_com_brothers.woff2') format('woff2'),
+         url('../../fonts/ufonts_com_brothers.woff') format('woff'),
+         url('../../fonts/ufonts_com_brothers.ttf') format('truetype'),
+         url('../../fonts/ufonts_com_brothers.svg#ufonts_com_brothers') format('svg');
+}

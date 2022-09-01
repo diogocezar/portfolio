@@ -1,0 +1,1105 @@
+.bg-half{
+    position: fixed;
+    top: 0;
+    left: 50%;
+    width: 50%;
+    z-index: -1;
+    height: 100%;
+    background: -moz-linear-gradient(left,  rgba(242,242,242,1) 0%, rgba(242,242,242,0) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(242,242,242,1)), color-stop(100%,rgba(242,242,242,0))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(left,  rgba(242,242,242,1) 0%,rgba(242,242,242,0) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(left,  rgba(242,242,242,1) 0%,rgba(242,242,242,0) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(left,  rgba(242,242,242,1) 0%,rgba(242,242,242,0) 100%); /* IE10+ */
+    background: linear-gradient(to right,  rgba(242,242,242,1) 0%,rgba(242,242,242,0) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2f2f2', endColorstr='#00f2f2f2',GradientType=1 ); /* IE6-9 */
+}
+
+.box-dots{
+    position: relative;
+    float:left;
+    width: 100%;
+}
+
+.bg-dots{
+    background: url('../../images/receita/receita_vertical_dots.png') repeat-y 0%;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 50%;
+    z-index: -1;
+    height: 100%;
+    margin-left: -1px;
+    margin-top: 41px;
+}
+
+.bg-dots-margin{
+    margin-top: 55px;
+}
+
+header#page-header{
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-image: url("../../images/receita/receita_bg_header.jpg");
+    background-position: center top;
+    padding-top: 80px;
+    background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 640px){
+    header#page-header{
+        background-image: url("../../images/receita/receita_bg_header_mobile.jpg");
+    }
+}
+
+ @media (min-width: 1921px){
+     header#page-header{
+        background-size: cover;
+     }
+}
+
+header#page-header h1{
+    font-family: 'bebas_neuebold';
+    color: #FFF;
+    text-align: left;
+    font-size: 40pt;
+    line-height: 32pt;
+    padding-left: 10px;
+}
+
+header#page-header h2{
+    font-family: 'brandon_black';
+    color: #FFF;
+    text-align: left;
+    font-size: 11pt;
+    text-transform: uppercase;
+    letter-spacing: 5pt;
+    margin-top: 44px;
+}
+
+header#page-header h3{
+    font-family: 'brandon_regular';
+    color: #FFF;
+    text-align: left;
+    font-size: 10pt;
+    line-height: 0pt;
+    text-transform: uppercase;
+    letter-spacing: 4pt;
+    margin-top: 15px;
+}
+
+.box-amout, .box-time{
+    position: relative;
+    float:left;
+    width:100%;
+}
+
+.box-amout:before{
+    content: url("../../images/receita/receita_icon_amout.png");
+    height: 50px;
+    width: 50px;
+    position: relative;
+    float: left;
+    margin-right: 16px;
+    margin-top: 35px;
+}
+
+.box-time:before{
+    content: url("../../images/receita/receita_icon_time.png");
+    height: 50px;
+    width: 50px;
+    position: relative;
+    float: left;
+    margin-right: 16px;
+    margin-top: 35px;
+    margin-left: -25px;
+}
+
+@media screen and (max-width: 991px){
+    .box-time:before{
+        margin-left: 0px;
+    }
+}
+
+.row-header{
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+
+.row-footer{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.img-main{
+    margin-bottom: 20px;
+}
+
+.btn{
+    font-family: 'brandon_bold';
+    width: 80%;
+    margin-top: 30px;
+    border: 2px solid #f20f96;
+    margin-bottom: 30px;
+    padding: 5px;
+    padding-top: 2px!important;
+    padding-bottom: 10px;
+    text-align: center;
+    color: #f20f96;
+    letter-spacing: 2pt;
+    font-size: 10pt;
+    background-color: transparent;
+    -webkit-transition: all 0.1s ease-in-out;
+    -moz-transition: all 0.1s ease-in-out;
+    -ms-transition: all 0.1s ease-in-out;
+    -o-transition: all 0.1s ease-in-out;
+    transition: all 0.1s ease-in-out;
+    border-radius: 0px;
+    min-height: 53px;
+}
+
+.btn-share{
+    float:right;
+    padding-left: 2.6em!important;
+}
+
+.btn:hover {
+    background-color: #f20f96;
+    color: #FFF;
+}
+
+@media screen and (max-width: 375px){
+    .btn{
+        font-size: 10pt;
+    }
+}
+
+.box-options{
+    position: relative;
+    float: left;
+    width: 100%;
+    margin-top: 32px;
+    margin-bottom: 25px;
+}
+
+.line{
+    width: 100%;
+    background-image: url("../../images/receita/receita_line.png");
+    height: 14px;
+}
+
+.line:before{
+    content: url("../../images/receita/receita_dot.png");
+    height: 14px;
+    width: 14px;
+    position: relative;
+    float: left;
+    cursor: pointer;
+    left: -1px;
+    -webkit-transition: all 0.1s ease-in-out;
+    -moz-transition: all 0.1s ease-in-out;
+    -ms-transition: all 0.1s ease-in-out;
+    -o-transition: all 0.1s ease-in-out;
+    transition: all 0.1s ease-in-out;
+}
+
+.line:hover:before{
+    -webkit-transition: all 0.1s ease-in-out;
+    -moz-transition: all 0.1s ease-in-out;
+    -ms-transition: all 0.1s ease-in-out;
+    -o-transition: all 0.1s ease-in-out;
+    transition: all 0.1s ease-in-out;
+    transform: scale(0.9,0.9)!important;
+}
+
+.line:after{
+    content: url("../../images/receita/receita_dot.png");
+    height: 14px;
+    width: 14px;
+    position: relative;
+    float: right;
+    cursor: pointer;
+    -webkit-transition: all 0.1s ease-in-out;
+    -moz-transition: all 0.1s ease-in-out;
+    -ms-transition: all 0.1s ease-in-out;
+    -o-transition: all 0.1s ease-in-out;
+    transition: all 0.1s ease-in-out;
+}
+
+.line:hover:after{
+    -webkit-transition: all 0.1s ease-in-out;
+    -moz-transition: all 0.1s ease-in-out;
+    -ms-transition: all 0.1s ease-in-out;
+    -o-transition: all 0.1s ease-in-out;
+    transition: all 0.1s ease-in-out;
+    transform: scale(0.9,0.9)!important;
+}
+
+.heart{
+    position: absolute;
+    left:50%;
+    background-image: url("../../images/receita/receita_heart.png");
+    height: 23px;
+    width: 26px;
+    margin-top: -2px;
+    margin-left: -13px;
+    cursor: pointer;
+    -webkit-transition: all 0.1s ease-in-out;
+    -moz-transition: all 0.1s ease-in-out;
+    -ms-transition: all 0.1s ease-in-out;
+    -o-transition: all 0.1s ease-in-out;
+    transition: all 0.1s ease-in-out;
+    transform: scale(0.9,0.9)!important;
+}
+
+.heart:hover{
+    transform: scale(1.2,1.2)!important;
+}
+
+.me, .love{
+    font-family: 'bebas_neuebold';
+    font-size: 14pt;
+    letter-spacing: 2px;
+    color: #aaaaaa;
+}
+
+.me{
+    position: absolute;
+    top: 30px;
+    left: -2px;
+}
+
+.love{
+    position: absolute;
+    top: 30px;
+    left: 100%;
+    margin-left: -42px;
+    width: 85px;
+}
+
+.we{
+    font-family: 'bebas_neuebold';
+    font-size: 20pt;
+    color: #ec008c;
+    position: absolute;
+    top: 27px;
+    left: 50%;
+    margin-left: -17px;
+}
+
+/* Inside */
+
+.box-options-inside{
+    position: relative;
+    float: left;
+    width: 100%;
+    margin-top: 32px;
+    margin-bottom: 25px;
+}
+
+.line-inside{
+    width: 100%;
+    background-image: url("../../images/receita/receita_line_in.png");
+    height: 14px;
+}
+
+.line-inside:before{
+    content: url("../../images/receita/receita_dot_in.png");
+    height: 14px;
+    width: 14px;
+    position: relative;
+    float: left;
+    cursor: pointer;
+    -webkit-transition: all 0.1s ease-in-out;
+    -moz-transition: all 0.1s ease-in-out;
+    -ms-transition: all 0.1s ease-in-out;
+    -o-transition: all 0.1s ease-in-out;
+    transition: all 0.1s ease-in-out;
+}
+
+.line-inside:hover:before{
+    -webkit-transition: all 0.1s ease-in-out;
+    -moz-transition: all 0.1s ease-in-out;
+    -ms-transition: all 0.1s ease-in-out;
+    -o-transition: all 0.1s ease-in-out;
+    transition: all 0.1s ease-in-out;
+    transform: scale(0.9,0.9)!important;
+}
+
+.line-inside:after{
+    content: url("../../images/receita/receita_dot_in_fill.png");
+    height: 14px;
+    width: 14px;
+    position: relative;
+    float: right;
+    cursor: pointer;
+    -webkit-transition: all 0.1s ease-in-out;
+    -moz-transition: all 0.1s ease-in-out;
+    -ms-transition: all 0.1s ease-in-out;
+    -o-transition: all 0.1s ease-in-out;
+    transition: all 0.1s ease-in-out;
+}
+
+.line-inside:hover:after{
+    -webkit-transition: all 0.1s ease-in-out;
+    -moz-transition: all 0.1s ease-in-out;
+    -ms-transition: all 0.1s ease-in-out;
+    -o-transition: all 0.1s ease-in-out;
+    transition: all 0.1s ease-in-out;
+    transform: scale(0.9,0.9)!important;
+}
+
+.dot-inside{
+    position: absolute;
+    left:50%;
+    background-image: url("../../images/receita/receita_dot_middle.png");
+    height: 8px;
+    width: 8px;
+    top:5px;
+    margin-left: -4px;
+    cursor: pointer;
+    -webkit-transition: all 0.1s ease-in-out;
+    -moz-transition: all 0.1s ease-in-out;
+    -ms-transition: all 0.1s ease-in-out;
+    -o-transition: all 0.1s ease-in-out;
+    transition: all 0.1s ease-in-out;
+    transform: scale(0.9,0.9)!important;
+}
+
+.dot-inside:hover{
+    transform: scale(1.2,1.2)!important;
+}
+
+.me-inside, .love-inside{
+    font-family: 'bebas_neuebold';
+    font-size: 13pt;
+    color: #ec008c;
+}
+
+.me-inside{
+    position: absolute;
+    top: -30px;
+    left: 3px;
+}
+
+.love-inside{
+    position: absolute;
+    top: -30px;
+    left: 100%;
+    margin-left: -34px;
+    width: 57px;
+}
+
+.reciple h2{
+    font-family: 'bebas_neuebold';
+    font-size: 37pt;
+    color: #ec008c;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 10pt;
+}
+
+@media screen and (max-width: 400px){
+    .reciple h2{
+        font-size: 17pt;
+    }
+}
+
+.comprar{
+    color: #e92595;
+    border-bottom: 1px solid #e92595;
+    position: relative;
+    width: 86px;
+    display: inline-block;
+    cursor: pointer;
+    transition: all 0.5s ease 0s!important;
+}
+
+.icon-cart{
+    content: url("../../images/receita/receita_cart.png");
+    height: 18px;
+    width: 18px;
+    position: absolute;
+    margin-left: 3px;
+}
+
+.comprar:hover{
+      -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+      filter: alpha(opacity=50);
+      -moz-opacity: 0.5;
+      -khtml-opacity: 0.5;
+      opacity: 0.5;
+}
+
+.bullets-2:before{
+    content: url("../../images/receita/receita_dot_li.png");
+    height: 13px;
+    width: 4px;
+    position: absolute;
+    margin-left: -15px;
+}
+
+.bullets-1:after{
+    content: url("../../images/receita/receita_dot_li.png");
+    height: 13px;
+    width: 4px;
+    position: absolute;
+    margin-left: 10px;
+    top: 2px;
+}
+
+.reciple ul{
+    padding: 0px;
+}
+
+.reciple ul li{
+    list-style: none;
+    margin-top: 10px;
+    font-family: 'brandon_regular';
+    color: #58595b;
+    font-size: 13pt;
+    position: relative;
+    clear: both;
+    letter-spacing: 1px;
+    line-height: 23pt;
+}
+
+.margin-left{
+    margin-left: 50px;
+}
+
+.margin-right{
+    margin-right: 50px;
+}
+
+.col-right{
+    text-align: right;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 0px;
+}
+
+.col-left{
+    text-align: left;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 0px;
+}
+
+.row-ingredientes{
+    margin-top: 0px;
+}
+
+.row-modo{
+    margin-top: 0px;
+}
+
+.start-inside, .end-inside{
+    font-family: 'bebas_neuebold';
+    font-size: 12pt;
+    color: #ec008c;
+}
+
+.start-inside{
+    position: absolute;
+    top: -22px;
+    left: 6px;
+}
+
+.end-inside{
+    position: absolute;
+    top: -22px;
+    left: 100%;
+    margin-left: -7px;
+}
+
+.p-default{
+    font-family: 'brandon_regular';
+    color: #58595b;
+    margin-top: 10px;
+    font-size: 13pt;
+    position: relative;
+    clear: both;
+    letter-spacing: 1px;
+    line-height: 23pt;
+}
+
+/* Half */
+
+.half-box{
+    position: relative;
+    float: left;
+    width: 100%;
+    margin-top: 32px;
+    margin-bottom: 25px;
+}
+
+.half-line-inside{
+    width: 100%;
+    background-image: url("../../images/receita/receita_line_in.png");
+    height: 14px;
+}
+
+.half-dot-inside{
+    position: absolute;
+    left:50%;
+    background-image: url("../../images/receita/receita_dot_middle.png");
+    height: 8px;
+    width: 8px;
+    top:5px;
+    margin-left: -4px;
+    cursor: pointer;
+    -webkit-transition: all 0.1s ease-in-out;
+    -moz-transition: all 0.1s ease-in-out;
+    -ms-transition: all 0.1s ease-in-out;
+    -o-transition: all 0.1s ease-in-out;
+    transition: all 0.1s ease-in-out;
+    transform: scale(0.9,0.9)!important;
+}
+
+.half-dot-inside:hover{
+    transform: scale(1.2,1.2)!important;
+}
+
+.half-line-inside:before{
+    content: url("../../images/receita/receita_dot_in.png");
+    height: 14px;
+    width: 14px;
+    position: relative;
+    float: left;
+    cursor: pointer;
+    -webkit-transition: all 0.1s ease-in-out;
+    -moz-transition: all 0.1s ease-in-out;
+    -ms-transition: all 0.1s ease-in-out;
+    -o-transition: all 0.1s ease-in-out;
+    transition: all 0.1s ease-in-out;
+}
+
+.half-line-inside:hover:before{
+    -webkit-transition: all 0.1s ease-in-out;
+    -moz-transition: all 0.1s ease-in-out;
+    -ms-transition: all 0.1s ease-in-out;
+    -o-transition: all 0.1s ease-in-out;
+    transition: all 0.1s ease-in-out;
+    transform: scale(0.9,0.9)!important;
+}
+
+.half-line-inside:after{
+    content: url("../../images/receita/receita_dot_middle.png");
+    height: 8px;
+    width: 8px;
+    position: absolute;
+    float: right;
+    cursor: pointer;
+    -webkit-transition: all 0.1s ease-in-out;
+    -moz-transition: all 0.1s ease-in-out;
+    -ms-transition: all 0.1s ease-in-out;
+    -o-transition: all 0.1s ease-in-out;
+    transition: all 0.1s ease-in-out;
+    top: -2px;
+    left: 100%;
+    margin-left: -4px;
+    margin-top: 1px;
+}
+
+.half-line-inside:hover:after{
+    -webkit-transition: all 0.1s ease-in-out;
+    -moz-transition: all 0.1s ease-in-out;
+    -ms-transition: all 0.1s ease-in-out;
+    -o-transition: all 0.1s ease-in-out;
+    transition: all 0.1s ease-in-out;
+    transform: scale(0.9,0.9)!important;
+}
+
+.line-right:before{
+    content: url("../../images/receita/receita_dot_middle.png");
+    height: 8px;
+    width: 8px;
+    position: absolute;
+    float: left;
+    cursor: pointer;
+    -webkit-transition: all 0.1s ease-in-out;
+    -moz-transition: all 0.1s ease-in-out;
+    -ms-transition: all 0.1s ease-in-out;
+    -o-transition: all 0.1s ease-in-out;
+    transition: all 0.1s ease-in-out;
+    top: -2px;
+    left: 0;
+    margin-left: -4px;
+}
+
+.line-right:after{
+    content: url("../../images/receita/receita_dot_in_fill.png");
+    height: 18px;
+    width: 18px;
+    position: absolute;
+    cursor: pointer;
+    -webkit-transition: all 0.1s ease-in-out;
+    -moz-transition: all 0.1s ease-in-out;
+    -ms-transition: all 0.1s ease-in-out;
+    -o-transition: all 0.1s ease-in-out;
+    transition: all 0.1s ease-in-out;
+    left: 100%;
+    margin-left: -13px!important;
+}
+
+.half-start-inside, .half-end-inside {
+    font-family: 'bebas_neuebold';
+    font-size: 12pt;
+    color: #ec008c;
+}
+
+.half-start-inside{
+    position: absolute;
+    top: -22px;
+    left: 6px;
+}
+
+.half-end-inside{
+    position: absolute;
+    top: -22px;
+    left: 100%;
+    margin-left: -7px;
+}
+
+.col-margin{
+    margin-top: 20%;
+}
+
+.col-modo{
+    margin-top: 45px;
+}
+
+.row-footer{
+    margin-bottom: 20px;
+}
+
+/* Mobile Adjustments */
+
+.box-amout-mobile h2, .box-time-mobile h2{
+    font-family: 'brandon_black';
+    color: #e8008c;
+    text-align: left;
+    font-size: 12pt;
+    text-transform: uppercase;
+    letter-spacing: 2pt;
+    margin-top: 44px;
+}
+
+.box-amout-mobile h3, .box-time-mobile h3{
+    font-family: 'brandon_regular';
+    color: #e8008c;
+    text-align: left;
+    font-size: 10pt;
+    line-height: 0pt;
+    text-transform: uppercase;
+    letter-spacing: 3pt;
+    margin-top: 15px;
+}
+
+.box-amout-mobile, .box-time-mobile{
+    position: relative;
+    float:left;
+    width:100%;
+}
+
+.box-amout-mobile:before{
+    content: url("../../images/receita/receita_icon_amout_mobile.png");
+    height: 50px;
+    width: 50px;
+    position: relative;
+    float: left;
+    margin-right: 16px;
+    margin-top: 35px;
+}
+
+.box-time-mobile:before{
+    content: url("../../images/receita/receita_icon_time_mobile.png");
+    height: 50px;
+    width: 50px;
+    position: relative;
+    float: left;
+    margin-right: 16px;
+    margin-top: 35px;
+    margin-left: -25px;
+}
+
+@media screen and (max-width: 991px){
+    .box-time:before{
+        margin-left: 0px;
+    }
+    .padding-mobile{
+        padding-left: 15.5%;
+        padding-right: 15.5%;
+    }
+    .btn{
+        font-family: 'brandon_black';
+        width: 100%;
+        margin-top: 30px;
+        border: 2px solid #f20f96;
+        margin-bottom: 30px;
+        padding: 5px;
+        padding-top: 11px!important;
+        padding-bottom: 10px;
+        text-align: center;
+        color: #f20f96;
+        letter-spacing: 2pt;
+        font-size: 12pt;
+        background-color: transparent;
+        -webkit-transition: all 0.1s ease-in-out;
+        -moz-transition: all 0.1s ease-in-out;
+        -ms-transition: all 0.1s ease-in-out;
+        -o-transition: all 0.1s ease-in-out;
+        transition: all 0.1s ease-in-out;
+        border-radius: 0px;
+        min-height: 65px;
+    }
+    .me, .love {
+        font-family: 'bebas_neuebold';
+        font-size: 18pt;
+        color: #aaaaaa;
+    }
+    .me {
+        position: absolute;
+        top: 19px;
+        left: 0px;
+    }
+    .love{
+        position: absolute;
+        top: 19px;
+        left: 100%;
+        margin-left: -55px;
+        width: 101px;
+    }
+    .we {
+        font-family: 'bebas_neuebold';
+        font-size: 27pt;
+        color: #ec008c;
+        position: absolute;
+        top: 27px;
+        left: 50%;
+        margin-left: -22px;
+    }
+}
+
+/* Responsive Adjustments */
+
+.header-desktop, .reciple-desktop{
+    display: block;
+}
+
+.header-mobile, .reciple-mobile{
+    display: none;
+}
+
+@media screen and (max-width: 991px){
+    .bg-dots{
+        display: none;
+    }
+    .reciple h2 {
+        font-family: 'bebas_neuebold';
+        font-size: 43pt;
+        color: #ec008c;
+        text-align: center;
+        text-transform: uppercase;
+        letter-spacing: 4pt;
+        margin-top: 66px;
+    }
+    .header-desktop{
+        display: none;
+    }
+    .header-mobile{
+        display: block;
+    }
+    .reciple-desktop{
+        display: none;
+    }
+    .reciple-mobile{
+        display: block;
+    }
+    .hidden-xs{
+        display: none;
+    }
+    header#page-header h1 {
+        text-align: left;
+        font-size: 60pt;
+        line-height: 50pt;
+        padding-left: 25px;
+    }
+    .reciple ul li {
+        list-style: none;
+        margin-top: 10px;
+        font-family: 'brandon_regular';
+        color: #58595b;
+        font-size: 16pt;
+        position: relative;
+        clear: both;
+    }
+    .col-margin {
+        margin-top: 5%;
+    }
+    .half-start-inside-mobile {
+        position: absolute;
+        top: -22px;
+        left: 2px;
+    }
+    .half-end-inside-mobile {
+        position: absolute;
+        top: -24px;
+        left: 100%;
+        margin-left: -47px;
+        width: 52px;
+    }
+    .p-default{
+        margin-top: 10px;
+        font-family: 'brandon_regular';
+        color: #58595b;
+        font-size: 16pt;
+        position: relative;
+        clear: both;
+    }
+}
+
+@media screen and (max-width: 457px){
+    header#page-header h1 {
+        padding-left: 0px;
+        font-size: 30pt;
+        line-height: 30pt;
+    }
+    .row-header {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+}
+
+@media screen and (max-width: 630px){
+    .box-amout-mobile h2, .box-time-mobile h2{
+        font-family: 'brandon_black';
+        color: #e8008c;
+        text-align: left;
+        font-size: 8pt;
+        text-transform: uppercase;
+        letter-spacing: 2pt;
+        margin-top: 44px;
+    }
+
+    .box-amout-mobile h3, .box-time-mobile h3{
+        font-family: 'brandon_regular';
+        color: #e8008c;
+        text-align: left;
+        font-size: 6pt;
+        line-height: 0pt;
+        text-transform: uppercase;
+        letter-spacing: 1pt;
+        margin-top: 15px;
+    }
+}
+
+.mobile-col-left{
+    padding-left: 12%;
+}
+
+.mobile-col-right{
+    padding-right: 12%;
+}
+
+.mobile-right{
+    text-align: right;
+}
+
+@media screen and (max-width: 360px){
+    .reciple h2 {
+        font-size: 24pt;
+    }
+}
+
+@media screen and (max-width: 1199px){
+    header#page-header h2 {
+        font-family: 'brandon_black';
+        color: #FFF;
+        text-align: left;
+        font-size: 11pt;
+        text-transform: uppercase;
+        letter-spacing: 2pt;
+        margin-top: 44px;
+    }
+    header#page-header h3 {
+        font-family: 'brandon_regular';
+        color: #FFF;
+        text-align: left;
+        font-size: 10pt;
+        line-height: 0pt;
+        text-transform: uppercase;
+        letter-spacing: 1pt;
+        margin-top: 15px;
+    }
+    .btn-share {
+        padding-left: 3.5em!important;
+    }
+}
+
+.line-share {
+    width: 100%;
+    background-image: url("../../images/receita/receita_line_compartilhe.png");
+    height: 17px;
+    margin-top: 30px;
+    margin-bottom: 35px;
+}
+
+/* Extra Small */
+
+
+@media screen and (max-width: 370px){
+    .love {
+        margin-left: -91px;
+    }
+    .padding-mobile {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .box-amout-mobile h2, .box-time-mobile h2 {
+        font-family: 'brandon_black';
+        color: #e8008c;
+        text-align: center;
+        font-size: 9pt;
+        text-transform: uppercase;
+        letter-spacing: 2pt;
+        margin-top: 44px;
+        line-height: 18pt;
+    }
+    .box-amout-mobile h3, .box-time-mobile h3 {
+        font-family: 'brandon_regular';
+        color: #e8008c;
+        text-align: center;
+        font-size: 9pt;
+        line-height: 0pt;
+        text-transform: uppercase;
+        letter-spacing: 1pt;
+        margin-top: 20px;
+    }
+    .box-amout-mobile h3{
+        margin-top: 33pt;
+    }
+}
+
+/* Reponsive 320 Adjustments */
+@media screen and (max-width: 991px){
+    .icon-cart {
+        content: url("../../images/receita/receita_cart.png");
+        height: 18px;
+        width: 18px;
+        position: absolute;
+        margin-left: -21px;
+        top: 6px;
+        left: 100%;
+    }
+    .comprar {
+        color: #e92595;
+        border-bottom: 1px solid #e92595;
+        position: relative;
+        width: 100px;
+        display: inline-block;
+        cursor: pointer;
+        text-align: left;
+        transition: all 0.5s ease 0s!important;
+    }
+}
+
+@media screen and (max-width: 466px){
+    .box-amout-mobile:before{
+        content: url("../../images/receita/receita_icon_amout_mobile_xs.png");
+        height: 50px;
+        width: 25px;
+        position: relative;
+        float: left;
+        margin-right: 8px;
+        margin-top: 10px;
+    }
+    .box-time-mobile:before{
+        content: url("../../images/receita/receita_icon_time_mobile_xs.png");
+        height: 50px;
+        width: 25px;
+        position: relative;
+        float: left;
+        margin-right: 8px;
+        margin-top: 10px;
+        margin-left: -12px;
+    }
+    .no-padding{
+        padding:0px;
+    }
+    header#page-header {
+        padding-top: 50px;
+        -o-background-size:100% 55%;
+        -webkit-background-size:100% 55%;
+        -moz-background-size:100% 55%;
+        background-size:100% 55%;
+    }
+    header#page-header h1 {
+        padding-left: 0px;
+        font-size: 30pt;
+        line-height: 30pt;
+        margin: 0px;
+        margin-top: 5px;
+    }
+    .box-amout-mobile h2, .box-time-mobile h2 {
+        font-family: 'brandon_black';
+        color: #e8008c;
+        text-align: left;
+        font-size: 8pt;
+        text-transform: uppercase;
+        letter-spacing: 0;
+        margin-top: 10px;
+        line-height: 12pt;
+        margin-left: 10px;
+        margin-bottom: 0px;
+    }
+    .box-amout-mobile h3, .box-time-mobile h3{
+        margin-top: 0px;
+        font-size: 7pt;
+        line-height: 12pt;
+        letter-spacing: 0;
+        text-align: left;
+    }
+    .btn{
+        margin:0px;
+        min-height: 50px;
+    }
+    .reciple ul li {
+        list-style: none;
+        margin-top: 10px;
+        font-family: 'brandon_regular';
+        color: #58595b;
+        font-size: 12pt;
+        position: relative;
+        clear: both;
+    }
+    .margin-right {
+        margin-right: 15px;
+    }
+    .margin-left {
+        margin-left: 15px;
+    }
+    .icon-cart {
+        content: url("../../images/receita/receita_cart.png");
+        height: 18px;
+        width: 18px;
+        position: absolute;
+        margin-left: -21px;
+        top: 6px;
+        left: 100%;
+    }
+    .comprar {
+        color: #e92595;
+        border-bottom: 1px solid #e92595;
+        position: relative;
+        width: 86px;
+        display: inline-block;
+        cursor: pointer;
+        text-align: left;
+        transition: all 0.5s ease 0s!important;
+    }
+    .p-default {
+        font-size: 12pt;
+    }
+}

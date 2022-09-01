@@ -1,0 +1,461 @@
+#ingressos{
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 0!important;
+    background-image: url("../../images/ingressos/ingressos_ingressos.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top:80px;
+}
+
+#ingressos h2{
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 70px;
+}
+
+#ingressos h3{
+    text-transform: uppercase;
+    color:#7a7b7a;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#ingressos h3.active{
+    color:#fff;
+}
+
+.board-mobile{
+    padding: 30px;
+    margin-top: 20px;
+    background-color: rgba(0, 0, 0, 0.3);
+    margin-bottom: 25px;
+}
+
+.board-mobile h2{
+    text-align: center!important;
+    margin-bottom: 10px!important;
+    font-size: 22pt!important;
+    margin-top: 5px!important;
+    margin-bottom: 15px!important;
+}
+
+.board-mobile h3{
+    font-size: 17pt!important;
+    position: relative!important;
+    margin: 0!important;
+    float:none!important;
+    width: 100%!important;
+    text-align: center!important;
+}
+
+.board-mobile .btn-comprar-table {
+    margin-top: 25px!important;
+    margin-bottom: 20px!important;
+}
+
+.board-mobile .row-price{
+    margin-top: 5px!important;
+    margin-bottom: 5px!important;
+    padding-bottom: 5px!important;
+}
+
+.board-mobile .row-table-price{
+    padding-bottom: 10px;
+}
+
+.board-mobile h5{
+    color: #fff;
+    text-align: center!important;
+    font-size: 16pt;
+    margin-bottom: 2px;
+    font-weight: bold;
+}
+
+.board-mobile h6{
+    color: #fff;
+    text-align: center!important;
+    font-size: 12pt;
+    margin-bottom: 4px!important;
+    margin-top: 4px!important;
+}
+
+.board-mobile .conheca{
+    text-transform: uppercase;
+    margin-top: 35px!important;
+    margin-bottom: 0px!important;
+}
+
+#board-ingressos{
+    background-image: url("../../images/ingressos/ingressos_board_1.png");
+    background-repeat: no-repeat;
+    background-position: center; 
+    height: 499px;
+    width: 100%;
+    padding-top: 85px;
+    padding-bottom: 85px;
+    margin-top: 20px;
+}
+
+#inside-board-ingressos{
+    width: 100%;
+    position: relative;
+    float:left;
+}
+
+#absolute-board-ingressos{
+    left: 50%;
+    margin-left: -240px;
+    position: absolute;
+    width: 480px;
+}
+
+#absolute-board-ingressos p{
+    color:#fff;
+}
+
+.row-exp{
+    margin-bottom: 40px;
+}
+
+.row-table-price{
+    border-top:1px solid #fff;
+}
+
+.board-home h2{
+    margin: 0px!important;
+    padding: 0px!important;
+    text-align: center!important;
+    margin-bottom: 4px;
+}
+
+.board-home h3{
+    font-size: 13pt!important;
+}
+
+.actived-lote{
+    color:#fff!important;
+}
+
+.desactived-lote{
+    color:#7b787a!important;
+}
+
+.board-home h4{
+    font-size: 12pt!important;
+    color:#fff!important;
+    font-weight: bold;
+}
+
+.board-home h5{
+    font-size: 12pt!important;
+    color:#fff!important;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.board-home p{
+    font-size: 13pt!important;
+    margin-top: 19px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#conheca{
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 0!important;
+    background-image: url("../../images/ingressos/ingressos_conheca.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#conheca h2{
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 70px;
+}
+
+#conheca h3{
+    text-transform: uppercase;
+    color:#7a7b7a;
+}
+
+.tab-line{
+    position: relative;
+    float:left;
+    width: 100%;
+    clear: both;
+    height: 85px;
+    margin-top:15px;
+}
+
+.tab-line-inside{
+    left:50%;
+    margin-left: -400px;
+    position: absolute;
+    width: 800px;
+}
+
+.tab-border{
+    border-left:1px solid #cbcbcb;
+}
+
+.tab{
+    text-align: center;
+    position: relative;
+    border-radius: 3px;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 9pt;
+    display: block;
+    float: left;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-top: 3px;
+    font-family: 'co_headlineregular';
+    width: 200px;
+    background-color: #969696;
+}
+
+.actived{
+    background-color: #e43c25!important;
+}
+
+.tab-start{
+    background-color: #969696;
+    border-radius: 5px 0 0 5px;
+}
+
+.tab-middle{
+    background-color: #969696;
+    border-radius:  0px;
+}
+
+.tab-end{
+    background-color: #969696;
+    border-radius: 0 5px 5px 0;
+}
+
+#board-conheca{
+    background-image: url("../../images/ingressos/ingressos_board_2.png");
+    background-repeat: no-repeat;
+    background-position: center; 
+    height: 521px;
+    width: 100%;
+    padding-top: 85px;
+    padding-bottom: 85px;
+    margin-bottom: 45px;
+}
+
+#inside-board-conheca{
+    width: 100%;
+    position: relative;
+    float:left;
+}
+
+#absolute-board-conheca{
+    left: 50%;
+    margin-left: -450px;
+    position: absolute;
+    width: 900px;
+}
+
+#absolute-board-conheca p{
+    color:#fff;
+}
+
+#option-camarote-brahma ul li{
+    color:#fff;
+    line-height: 26px;
+}
+
+.ul-camarote-brahma{
+    margin-top: 45px;
+}
+
+#option-camarote-brahma h3{
+    color:#fff;
+    margin-top: 45px;
+}
+
+.ul-camarote-vl{
+    margin-top: 90px;
+}
+
+#option-camarote-vl ul li{
+    color:#fff;
+    line-height: 26px;
+}
+
+.ul-arena-vip{
+    margin-top: 115px;
+}
+
+#option-arena-vip ul li{
+    color:#fff;
+    line-height: 26px;
+}
+
+.ul-arena{
+    margin-top: 150px;
+}
+
+#option-arena ul li{
+    color:#fff;
+    line-height: 26px;
+}
+
+.accordion-line-mobile{
+    position: relative;
+    float: left;
+    width: 100%;
+    margin-bottom: 30px;
+    padding: 5px;
+}
+
+.accordion-line-mobile .ul-camarote-brahma h3{
+    text-align: center!important;
+    color:#fff!important;
+}
+
+.accordion-line-mobile .ul-camarote-brahma p{
+    text-align: center!important;
+    color:#fff!important;
+    font-size: 9pt;
+}
+
+.accordion-line-mobile .ul-camarote-brahma, 
+.accordion-line-mobile .ul-camarote-vl,
+.accordion-line-mobile .ul-arena-vip,
+.accordion-line-mobile .ul-arena
+ {
+    color: #fff!important;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: relative;
+    float: left;
+    width: 100%;
+    margin: 0;
+}
+
+.accordion-line-mobile .accordion {
+    text-align: center;
+    position: relative;
+    border-radius: 3px;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 12pt;
+    display: block;
+    float: left;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-top: 3px;
+    font-family: 'co_headlineregular';
+    width: 100%;
+    background-color: #969696;
+}
+
+#pontos-de-venda{
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 0!important;
+    background-image: url("../../images/ingressos/ingressos_pontos.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#pontos-de-venda h2{
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 70px;
+}
+
+#pontos-de-venda h3{
+    text-transform: uppercase;
+    color:#fff;
+}
+
+#pontos-de-venda p{
+    color:#fff;
+}
+
+.full-width{
+    width: 100%;
+    position: relative;
+    float:left;
+    z-index: 9999999;
+    margin-top: 35px;
+}
+
+.btn-compre{
+    left: 50%;
+    margin-left: -210px;
+    text-align: center;
+    position: relative;
+    width: 420px!important;
+    display: block;
+    background-color: #e43c25;
+    border-radius: 5px;
+    text-transform: uppercase;
+    color: #fff;
+    padding:10px;
+    font-size: 16pt;
+    font-weight: bold;
+}
+
+#map_1, #map_2 {
+    width: 400px;
+    height: 300px;
+}
+
+.map-inside{
+    width: 100%;
+    position: relative;
+    float:left;
+    height: 300px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.map-absolute{
+    left: 50%;
+    margin-left: -203px;
+    position: absolute;
+    z-index: 999999;
+}
+
+/* Responsive */
+
+@media screen and (max-width: 460px){
+    .btn-compre {
+        left: 0px!important;
+        margin-left: 0px!important;
+        width: 100%!important;
+    }
+    #map_1, #map_2 {
+        width: 280px!important;
+        height: 300px;
+    }
+    .map-absolute{
+        left: 50%;
+        margin-left: -140px;
+        position: absolute;
+        z-index: 999999;
+    }
+}
+

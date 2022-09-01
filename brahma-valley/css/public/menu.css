@@ -1,0 +1,303 @@
+.navbar-default{
+	background: #611714;
+	background: -moz-linear-gradient(left,  #611714 0%, #e43932 51%, #611714 100%);
+	background: -webkit-gradient(linear, left top, right top, color-stop(0%,#611714), color-stop(51%,#e43932), color-stop(100%,#611714));
+	background: -webkit-linear-gradient(left,  #611714 0%,#e43932 51%,#611714 100%);
+	background: -o-linear-gradient(left,  #611714 0%,#e43932 51%,#611714 100%);
+	background: -ms-linear-gradient(left,  #611714 0%,#e43932 51%,#611714 100%);
+	background: linear-gradient(to right,  #611714 0%,#e43932 51%,#611714 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#611714', endColorstr='#611714',GradientType=1 );
+	height: 80px;
+	border:none;
+	z-index:99999999;
+}
+
+.compre-agora{
+    color:#e52e26!important;
+    background-color: #ffffff!important;
+    text-align: center!important;
+    border-radius: 5px!important;
+}
+
+.compre-agora:hover{
+    color:#ffffff!important;
+    background-color: #e52e26!important;   
+}
+
+.menu-item{
+    color:#fff!important;
+}
+
+.menu-item-2-lines{
+    margin-top: -11px!important;
+}
+
+.menu-item:hover{
+    color:#FFFFFF!important;
+    background-color: #ED972F;
+    text-align: center;
+    border-radius: 5px;
+}
+
+@media screen and (max-width: 1199px){
+	.navbar-right{
+		display: none;
+	}
+	.navbar-default .navbar-nav>li>a, .navbar-default .navbar-nav>li>a {
+	    width:145px!important;
+	}
+}
+
+#btn-menu-mobile{
+    background: url("../../images/shared/shared_btn_menu.png") center 0;
+    height: 34px;
+    width: 47px;
+    top: 23px;
+    left: 25px;
+    cursor: pointer;
+    z-index: 999999999;
+    position: fixed;
+    display: none;
+}
+
+#btn-close-mobile{
+    background: url("../../images/shared/shared_btn_close_menu.png") center 0;
+    height: 45px;
+    width: 45px;
+    top: 23px;
+    left: 25px;
+    cursor: pointer;
+    z-index: 999999999;
+    position: absolute;
+    left: 100%;
+    margin-left: -66px;
+    display: none;
+}
+
+.img-logo-menu-mobile{
+    margin-top: 50px;
+    margin-bottom: 20px;
+    margin-left: 7%;
+}
+
+@media screen and (min-width: 992px){
+    #wrapper{
+        display: none;
+    }
+    #btn-menu-mobile{
+        display: none!important;
+    }
+}
+
+@media screen and (max-width: 992px){
+	.navbar{
+        display: none;
+    }
+    #btn-menu-mobile{
+        display: block;
+    }
+}
+
+.navbar-toggle {
+    position: relative;
+    float: right;
+    padding: 9px 10px;
+    margin-top: 24px;
+    margin-right: 15px;
+    margin-bottom: 8px;
+    background-color: transparent;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+    color: #ddd!important;
+    background-color: transparent!important;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #FFF;
+}
+
+.navbar-default .navbar-toggle {
+    border: none!important;
+}
+
+#navbar{
+	margin-top: 22px;
+	font-family: 'co_headlineregular';
+	font-weight: bold;
+	text-transform: uppercase;
+	
+}
+
+.navbar-nav>li>a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size:10pt;
+}
+
+.navbar-default .navbar-nav>li>a, .navbar-default .navbar-nav>li>a {
+    color:#fff;
+    background-color: transparent;
+    text-align: center;
+    width:150px;
+    margin-right: 5px;
+    margin-left: 5px;
+    border-radius: 5px;
+}
+
+.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus {
+    color:#FFFFFF;
+    background-color: #ED972F;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.img-logo-menu{
+	margin-right: 5px;
+}
+
+#wrapper {
+    padding-left: 0;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+#wrapper.toggled {
+    padding-left: 250px;
+}
+
+#sidebar-wrapper {
+    z-index: 99999999;
+    position: fixed;
+    left: 250px;
+    width: 0;
+    height: 100%;
+    margin-left: -250px;
+    overflow-y: auto;
+    background: #841e1d;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+#wrapper.toggled #sidebar-wrapper {
+    width: 80%;
+}
+
+#page-content-wrapper {
+    width: 100%;
+    position: absolute;
+    padding: 15px;
+}
+
+#wrapper.toggled #page-content-wrapper {
+    position: absolute;
+    margin-right: -250px;
+}
+
+/* Sidebar Styles */
+
+.sidebar-nav {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: none;
+}
+
+.sidebar-nav li {
+    line-height: 40px;
+}
+
+.sidebar-nav li a {
+    display: block;
+    text-decoration: none;
+    position: relative;
+    float: left;
+    width: 90%;
+    padding-left: 10px;
+}
+
+.sidebar-nav > .sidebar-brand {
+    height: 65px;
+    font-size: 18px;
+    line-height: 60px;
+}
+
+.sidebar-nav > .sidebar-brand a {
+    color: #999999;
+}
+
+.sidebar-nav > .sidebar-brand a:hover {
+    color: #fff;
+    background: none;
+}
+
+.menu-mobile{
+    margin-top:10px;
+    font-size:12pt;
+    text-transform:uppercase;
+    color:#c28f8e!important;
+    margin-left:10%;
+    border-left:2px solid #841e1d;
+}
+
+.menu-mobile:hover{
+    border-left:2px solid #fff;
+    color:#fff!important;
+}
+
+.menu-mobile-compre{
+    margin-top: 10px;
+    font-size: 12pt;
+    text-transform: uppercase;
+    color: #fff!important;
+    margin-left: 10%;
+    background-color: #fff;
+    border-left: 2px solid #841e1d;
+    color: #841e1d!important;
+    border-radius: 6px;
+    width: 80%!important;
+}
+
+.menu-mobile-compre:hover{
+    background-color:#841e1d;
+    color:#fff!important;
+    border-left:2px solid #fff;
+    border-radius: 0px;
+}
+
+#line-menu-mobile{
+    height: 40px;
+    border-bottom: 1px solid #fff;
+    position: relative;
+    float: left;
+    width: 100%;
+    margin-left: 10%;
+    width:80%;
+}
+
+.socials-menu-mobile{
+    position:relative;
+    float:left;
+    margin-top:20px;
+    margin-left: 10%;
+    width:80%;
+}
+
+.icon-menu-mobile{
+    width: 50px!important;
+    text-indent: 0px!important;
+}
+
+.facebook-mobile-share{
+    margin-top:20px;
+}

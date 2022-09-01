@@ -1,0 +1,124 @@
+/* Selection */
+
+::-moz-selection {
+    color: #fff;
+    background-color: rgba(236,0,140,0.7);
+}
+
+::selection {
+    color: #fff; 
+    background-color: rgba(236,0,140,0.7);
+}
+
+/* Loading */
+
+#preloader  {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #e2399e;
+    z-index: 2147483647;
+    height: 100%;
+ }
+
+.preload-img{
+	background-image: url("../../images/preload.png");
+	background-position: center center;
+	background-repeat: no-repeat;
+	height: 352px;
+	width: 341px;
+	left: 50%;
+	top: 50%;
+	position: absolute;
+	margin: -176px 0 0 -170px;
+ }
+
+ /* Aligns */
+
+ .center{
+  text-align: center;
+ }
+
+.left{
+  text-align: left;
+ }
+
+.right{
+  text-align: right;
+ }
+
+/* Center Img */
+
+.img-center{
+	margin: 0 auto;
+}
+
+/* Bg Dirty */
+
+.bg-dirty{
+	background-image: url("../../images/shared/shared_bg_dirty.jpg");
+	background-repeat: repeat;
+}
+
+/* Effects */
+
+.animation-01{
+	transition: all 0.5s ease 0s!important;
+}
+
+.animation-01:hover{
+	transform: scale(0.9,0.9) rotate(-5deg)!important;
+}
+
+.animation-02{
+	transition: all 0.5s ease 0s!important;
+}
+
+.animation-02:hover{
+	transform: scale(0.9,0.9)!important;
+}
+
+.animation-03{
+	cursor: pointer;
+	transition: all 0.5s ease 0s!important;
+}
+
+.animation-03:hover{
+	transform: scale(1.1,1.1)!important;
+}
+
+/* Place Holder */
+
+input[type="text"]::-webkit-input-placeholder{
+   color: #58595b;
+}
+
+input[type="text"]::-moz-placeholder{
+   color: #58595b;
+}
+
+input[type="text"]::-moz-placeholder{
+   color: #58595b;
+}
+
+input[type="text"]:-ms-input-placeholder{
+   color: #58595b;
+}
+
+textarea::-webkit-input-placeholder{
+   color: #58595b;
+}
+
+textarea::-moz-placeholder{
+   color: #58595b;
+}
+
+textarea::-moz-placeholder{
+   color: #58595b;
+}
+
+textarea:-ms-input-placeholder{
+   color: #58595b;
+}

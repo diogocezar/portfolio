@@ -1,0 +1,88 @@
+#terms{
+    display: none;
+    background-color: #000;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0!important;
+}
+
+#terms h2{
+    font-family: 'bebas_neuebold';
+    font-size: 34pt;
+    color: #ec008c;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 10pt;
+}
+
+.btn-close{
+    background: url("../../images/shared/close.png") center 0;
+    height: 50px;
+    width: 50px;
+    top: 94px;
+    left: 100%;
+    margin-left: -62px;
+    cursor: pointer;
+    z-index: 9999999;
+    position: fixed;
+    display: none;
+}
+
+.content-popup{
+    margin-top: 220px;
+	color: #949494!important;
+}
+
+.content-popup p {
+    margin-bottom: 23px;
+    margin-top: 27px;
+    font-family: 'brandon_regular';
+    font-size: 14pt;
+    color: #58595b;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    line-height: 31pt;
+    letter-spacing: 1pt;
+}
+
+@media screen and (max-width: 640px){
+    .content-popup p{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .content-popup {
+        margin-top: 130px;
+    }
+}
+
+@media screen and (max-width: 320px){
+    #terms h2 {
+        font-family: 'bebas_neuebold';
+        font-size: 19pt;
+        color: #ec008c;
+        text-align: center;
+        text-transform: uppercase;
+        letter-spacing: 4pt;
+    }
+    .content-popup p {
+        margin-bottom: 23px;
+        margin-top: 27px;
+        font-family: 'brandon_regular';
+        font-size: 12pt;
+        color: #58595b;
+        text-align: center;
+        margin-left: 0;
+        margin-right: 0;
+        line-height: 26pt;
+        letter-spacing: 1pt;
+    }
+    .btn-close {
+        top: 66px;
+    }
+    .content-popup{
+        margin-top: 100px;
+        color: #949494!important;
+    }
+}

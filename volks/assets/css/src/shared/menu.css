@@ -1,0 +1,739 @@
+/* Interna */
+
+.menu-interna-mobile{
+    display: none;
+}
+
+/* Select 2 */
+
+.menu-interna-mobile .select2-container {
+    width:100%!important;
+}
+
+.menu-interna{
+	top:100px;
+	position: fixed;
+	width: 100%;
+	background-color: #3074ac;
+	height: 80px;
+	padding: 0px;
+	z-index: 9;
+}
+
+.menu-interna ul{
+	position: relative;
+	float: left;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+
+.menu-interna-big-title ul{
+    padding-right: 20px;
+}
+
+.menu-interna-small-title ul{
+    padding-right: 70px;
+}
+
+
+.menu-interna ul li{
+	position: relative;
+	float: left;
+	list-style: none;
+	width: calc(100% / 6);
+	text-align: center;
+}
+
+.menu-interna ul li a{
+	color: #fff;
+	font-size: 15.5pt;
+	line-height: 80px;
+	text-decoration: none;
+	transition: all 0.2s ease 0s!important;
+}
+
+.actived{
+	color: #48B1EB!important;
+	font-family: 'VWHeadlineOT-Black';
+}
+
+.menu-interna ul li a:hover{
+	text-decoration: none;
+	color: #48B1EB;
+}
+
+/* Lateral Menu */
+
+.lateral-menu{
+	position:absolute;
+	top:0;
+	left:0;
+	width: 330px;
+	background-color: #fff;
+	border:1px solid #e3ebed;
+	z-index: 11;
+	padding:30px;
+    padding-top: 10px!important;
+    padding-bottom: 0px!important;
+	display: none;
+}
+
+.lateral-menu .top-sub-menu p{
+	font-size: 11pt;
+	font-family: 'VWHeadlineOT-Book';
+}
+
+.lateral-menu img{
+	float:left;
+	margin-top: 10px!important;
+	margin-bottom: 8px!important;
+}
+
+.lateral-menu ul{
+	position: relative;
+	float:left;
+	margin:0;
+	padding: 0;
+    width: 100%;
+}
+
+.lateral-menu li{
+	list-style: none;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-bottom: 2px solid #e3ebed;
+	text-align: left;
+	position:relative;
+	float:left;
+	clear:both;
+	width: 100%;
+	font-family: 'VWHeadlineOT-Black';
+    /* Debug IE11 */
+    list-style-image: url('../../../images/shared/empty.png');
+}
+
+.lateral-menu li:last-child{
+	border:none!important;
+}
+
+.lateral-menu li a{
+	font-size: 14pt;
+	text-decoration: none;
+	color: #000;
+}
+
+.lateral-menu li a:hover{
+	font-size: 14pt;
+	text-decoration: none;
+	color: #000;
+}
+
+.lateral-menu h3{
+	font-size: 13pt;
+}
+
+.lateral-menu .second-menu{
+	position: relative;
+	float: left;
+	width: 100%;
+}
+
+.lateral-menu .second-menu li{
+	list-style: none;
+	padding-top: 0px;
+	padding-bottom: 7px;
+	border-bottom: 1px solid #e3ebed;
+	text-align: left;
+	width: 50%;
+	position: relative;
+	float: left;
+	border: none;
+	clear:none!important;
+	font-family: 'VWHeadlineOT-Book';
+    /* Debug IE11 */
+    list-style-image: url('../../../images/shared/empty.png');
+}
+
+.lateral-menu .second-menu li a{
+	color: #48b1eb;
+}
+
+.lateral-menu .no-border{
+	border:none!important;
+}
+
+.lateral-menu .border-top{
+	border-top: 2px solid #e3ebed;
+}
+
+.menu{
+    height: 100px;
+    width: 100%;
+    border-bottom: 1px solid #cbd3d4;
+    padding: 0px;
+    position: fixed;
+    z-index: 10;
+    background-color: #fff;
+    top: 0;
+}
+
+.align-left-menu{
+	position: relative;
+	float: left;
+	width:65%;
+}
+
+.align-right-menu{
+	position: relative;
+	float: right;
+	width:35%;
+}
+
+.search-menu input{
+	font-family: 'VWHeadlineOT-Black';
+	font-size: 16pt;
+}
+
+.search-menu input::-webkit-input-placeholder{
+   color: #cbd3d4;
+}
+
+.search-menu input:-moz-placeholder{
+   color: #cbd3d4;
+}
+
+.search-menu input::-moz-placeholder{
+   color: #cbd3d4;
+}
+
+.search-menu input:-ms-input-placeholder{
+   color: #cbd3d4;
+}
+
+.icon-menu{
+	position: relative;
+	float: left;
+	height: 75px;
+	width: 10%;
+	min-width: 75px;
+	text-align: center;
+}
+
+.icon-menu img{
+    height: 33px!important;
+    margin: 0 auto;
+    margin-top: 34px;
+    cursor: pointer;
+    transition: all 0.2s ease 0s!important;
+}
+
+/*
+
+.icon-menu img:hover{
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
+	filter: alpha(opacity=90);
+	-moz-opacity: 0.9;
+	-khtml-opacity: 0.9;
+	opacity: 0.9;
+	transform: scale(0.95,0.95);
+}
+
+*/
+
+.separator-menu{
+	position: relative;
+	float: left;
+	height: 100px;
+	width: 1px;
+	border-right: 1px solid #cbd3d4;
+}
+
+.search-menu{
+    position: relative;
+    float: left;
+    width: 85%;
+}
+
+.search-menu input {
+    border: none;
+    height: 99px;
+    padding-left: 18px;
+    width: 100%;
+    color: #cbd3d4;
+}
+
+.icon-cart{
+	position: relative;
+	float: left;
+	height: 75px;
+	width: 20%;
+	text-align: center;
+	min-width: 75px;
+}
+
+.icon-cart img{
+    margin: 0 auto;
+    margin-top: 37px;
+    width: 54px;
+    z-index: 3;
+    cursor: pointer;
+    position: absolute;
+    left: 50%;
+    margin-left: -22px;
+    transition: all 0.2s ease 0s!important;
+}
+
+/*
+
+.icon-cart img:hover{
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
+	filter: alpha(opacity=90);
+	-moz-opacity: 0.9;
+	-khtml-opacity: 0.9;
+	opacity: 0.9;
+	transform: scale(0.95,0.95);
+}
+
+*/
+
+.icon-cart .qtd{
+    position: absolute;
+    top: 25px;
+    width: 20px;
+    height: 20px;
+    color: #fff;
+    line-height: 21px;
+    font-size: 12px;
+    background: #48b1eb;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    left: 50%;
+    margin-left: -8px;
+    z-index: 3;
+}
+
+.logo-menu{
+	position: relative;
+	float: right;
+	width: 75%;
+}
+
+.logo-menu .label-logo-menu{
+    position: relative;
+    float: right;
+    padding-top: 31px;
+    font-size: 20pt;
+    text-align: right;
+    margin-right: 20px;
+    font-family: 'VWHeadlineOT-Black';
+}
+
+.logo-menu img{
+    position: relative;
+    float: right;
+    padding-top: 7px;
+    margin-right: 5%;
+    height: 92px;
+}
+
+/* Mobile Menu */
+
+.menu-mobile{
+	display:none;
+    height: 50px;
+    width: 100%;
+    border-bottom: 1px solid #cbd3d4;
+    padding: 0px;
+    position: fixed;
+    z-index: 10;
+    background-color: #fff;
+    top: 0;
+}
+
+.menu-mobile .separator-menu {
+    position: relative;
+    float: left;
+    height: 50px;
+    width: 1px;
+    border-right: 1px solid #cbd3d4;
+}
+
+.menu-mobile .align-left-menu {
+    width: 20%;
+}
+
+.menu-mobile .align-right-menu {
+    position: relative;
+    float: right;
+    width: 80%;
+}
+
+.menu-mobile .icon-menu {
+    position: relative;
+    float: left;
+    height: 50px;
+    width: 20%;
+    min-width: 0!important;
+    text-align: center;
+}
+
+.menu-mobile .icon-menu .btn-open-menu {
+    margin: 0 auto;
+    margin-top: 15px;
+    height: 23px;
+    width: 23px;
+    cursor: pointer;
+    transition: all 0.2s ease 0s!important;
+}
+
+.menu-mobile .icon-menu .btn-close-menu {
+    display: none;
+    margin: 0 auto;
+    margin-top: 12px;
+    height: 24px;
+    width: 12px;
+    cursor: pointer;
+    transition: all 0.2s ease 0s!important;
+}
+
+.menu-mobile .icon-cart {
+    position: relative;
+    float: left;
+    height: 50px;
+    width: 20%;
+    text-align: center;
+    min-width: 0;
+}
+
+.menu-mobile .icon-cart img {
+    margin: 0 auto;
+    margin-top: 14px;
+    width: 33px;
+    z-index: 3;
+    cursor: pointer;
+    position: absolute;
+    left: 50%;
+    margin-left: -14px;
+    transition: all 0.2s ease 0s!important;
+}
+
+.menu-mobile .icon-cart .qtd {
+    position: absolute;
+    top: 5px;
+    width: 15px;
+    height: 15px;
+    color: #fff;
+    font-size: 8pt;
+    line-height: 15px;
+    font-size: 9px;
+    background: #48b1eb;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    left: 50%;
+    margin-left: -6px;
+    z-index: 2;
+}
+
+.menu-mobile .logo-menu {
+    position: relative;
+    float: right;
+    width: 55%;
+}
+
+.menu-mobile .logo-menu img {
+    position: relative;
+    float: right;
+    height: 50px;
+    width: 46px;
+    padding-top:2px!important;
+    margin-right: 10px!important;
+}
+
+.menu-mobile .logo-menu .label-logo-menu {
+    position: relative;
+    float: right;
+    padding-top: 13px;
+    font-size: 14pt;
+    text-align: right;
+    margin-right: 10px;
+    font-family: 'VWHeadlineOT-Black';
+}
+
+.menu-mobile .lateral-menu {
+    top: 0;
+    left: 0;
+    width: 100%!important;
+    background-color: #fff;
+    border: 1px solid #e3ebed;
+    z-index: 11;
+    padding: 30px;
+    display: none;
+    top:49px;
+    padding-bottom: 0px!important;
+}
+
+.menu-mobile .search-menu {
+    width: 100%;
+}
+
+.menu-mobile .search-menu input {
+	font-family: 'VWHeadlineOT-Black';
+    border: none;
+    height: 50px;
+    padding-left: 0px;
+    width: 100%;
+    font-size: 14pt;
+    border-bottom: 1px solid #e3ebed;
+    margin-bottom: 20px;
+}
+
+.menu-interna-mobile-bend{
+    height: 40px;
+    background-color: #000;
+    color: #fff;
+    width: 100%;
+    position: fixed;
+    float: left;
+    top: 50px;
+    line-height: 40px;
+    text-align: center;
+    z-index: 9;
+    display: none;
+}
+
+@media screen and (max-width: 483px){
+	.menu-mobile .logo-menu .label-logo-menu {
+	    position: relative;
+	    float: right;
+	    padding-top: 10px;
+	    font-size: 11pt;
+	    line-height: 12pt;
+	    text-align: right;
+	    margin-right: 10px;
+	    max-width: 80px;
+	    font-family: 'VWHeadlineOT-Black';
+	}
+}
+
+/* Responsive Adjustments */
+
+@media screen and (max-width: 1630px){
+    .menu-interna ul li a {
+        font-size: 15pt;
+    }
+    .menu-interna-big-title ul{
+        padding-right: 15px;
+    }
+
+    .menu-interna-small-title ul{
+        padding-right: 50px;
+    }
+}
+
+@media screen and (max-width: 1460px){
+    .menu-interna ul li a {
+        font-size: 12.5pt;
+    }
+    .menu-interna-big-title ul{
+        padding-right: 10px;
+    }
+
+    .menu-interna-small-title ul{
+        padding-right: 40px;
+    }
+}
+
+@media screen and (max-width: 1250px){
+    .menu-interna ul li a {
+        font-size: 10pt;
+    }
+    .menu-interna-big-title ul{
+        padding-right: 5px;
+    }
+
+    .menu-interna-small-title ul{
+        padding-right: 30px;
+    }
+}
+
+@media screen and (max-width: 1024px){
+	.menu{
+		display:none;
+	}
+	.menu-mobile{
+		display:block;
+	}
+	.menu-interna{
+		top:50px;
+		position: fixed;
+		width: 100%;
+		background-color: #3074ac;
+		height: 100px;
+		padding: 0px;
+		z-index: 9;
+	}
+    .menu-interna-mobile{
+        display: block;
+        top:50px;
+        position: fixed;
+        width: 100%;
+        background-color: #3074ac;
+        height: 65px;
+        padding: 0px;
+        z-index: 9;
+        padding:20px;
+        padding-top: 20px;
+    }
+    .menu-interna-mobile select{
+        width: 100%;
+    }
+    .menu-interna{
+        display:none;
+    }
+}
+
+@media screen and (max-width: 1610px){
+	.align-left-menu{
+		position: relative;
+		float: left;
+		width:60%;
+	}
+	.align-right-menu{
+		position: relative;
+		float: right;
+		width:40%;
+	}
+}
+
+@media screen and (max-width: 1410px){
+	.align-left-menu{
+		position: relative;
+		float: left;
+		width:60%;
+	}
+	.align-right-menu{
+		position: relative;
+		float: right;
+		width:40%;
+	}
+	.search-menu {
+	    width: 80%;
+	}
+}
+
+@media screen and (max-width: 1366px){
+    .align-left-menu {
+        width: 65%;
+    }
+    .align-right-menu {
+        width: 35%;
+    }
+    .menu {
+        height: 71px;
+    }
+    .icon-menu {
+        height: 71px;
+        width: 10%;
+        min-width: 50px;
+    }
+    .icon-menu img {
+        margin-top: 28px;
+        height: 17px!important;
+    }
+    .search-menu input {
+        border: none;
+        height: 70px;
+        padding-left: 18px;
+        width: 100%;
+        color: #cbd3d4;
+        font-size: 12pt;
+    }
+    .separator-menu {
+        height: 71px;
+    }
+    .icon-cart {
+        height: 71px;
+        min-width: 50px;
+        width: 20%;
+    }
+    .icon-cart img {
+        margin: 0 auto;
+        margin-top: 26px;
+        width: 40px;
+        z-index: 3;
+        cursor: pointer;
+        position: absolute;
+        left: 50%;
+        margin-left: -20px;
+        transition: all 0.2s ease 0s!important;
+    }
+    .icon-cart .qtd {
+        position: absolute;
+        top: 18px;
+        width: 14px;
+        height: 14px;
+        color: #fff;
+        line-height: 14px;
+        font-size: 9px;
+        background: #48b1eb;
+        -moz-border-radius: 50%;
+        -webkit-border-radius: 50%;
+        border-radius: 50%;
+        left: 50%;
+        margin-left: -8px;
+        z-index: 3;
+    }
+    .logo-menu img {
+        position: relative;
+        float: right;
+        padding-top: 9px;
+        margin-right: 5%;
+        height: 61px;
+    }
+    .logo-menu .label-logo-menu {
+        position: relative;
+        float: right;
+        padding-top: 22px;
+        font-size: 14pt;
+        text-align: right;
+        margin-right: 25px;
+        font-family: 'VWHeadlineOT-Black';
+    }
+    .menu-interna {
+        top: 71px;
+        position: fixed;
+        width: 100%;
+        background-color: #3074ac;
+        height: 57px;
+        padding: 0px;
+        z-index: 9;
+    }
+    .menu-interna ul li a {
+        color: #fff;
+        line-height: 57px;
+        text-decoration: none;
+        font-size: 11pt;
+        transition: all 0.2s ease 0s!important;
+    }
+    header {
+        margin-top: 70px!important;
+    }
+}
+
+@media screen and (max-width: 1265px){
+	.search-menu {
+	    width: 70%;
+	}
+}
+
+@media screen and (max-width: 1110px){
+    .align-left-menu {
+        width: 60%;
+    }
+    .align-right-menu {
+        width: 40%;
+    }
+}

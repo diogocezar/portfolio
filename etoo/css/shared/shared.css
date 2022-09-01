@@ -1,0 +1,86 @@
+html {
+    overflow: hidden;
+    overflow-y: auto;
+}
+
+body{
+    background-color:#2e2b2c;
+    font-family: 'politica_bold';
+    background-image: url('../../images/bg-gray.png');
+}
+
+.btn{
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-left:30px;
+    padding-right:30px;
+    background-color:#5ea9dd;
+    text-transform: uppercase;
+    color:#fff;
+    border-radius:1px;
+    border:none;
+    transition: all 0.5s ease 0s!important;
+}
+
+.btn:hover{
+    background-color:#565557;
+    color:#fff;
+    transition: all 0.5s ease 0s!important;
+}
+
+
+.btn-black{
+    border:none;
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-left:30px;
+    padding-right:30px;
+    background-color:#000;
+    text-transform: uppercase;
+    color:#fff;
+    border-radius:1px;
+    min-width:150px;
+    min-height:60px;
+    font-size: 18pt;
+    transition: all 0.5s ease 0s!important;
+}
+
+.btn-black:hover{
+    background-color:#565557;
+    color:#fff;
+    transition: all 0.5s ease 0s!important;
+}
+
+.center{
+    text-align: center;
+}
+
+.img-center{
+    margin: 0 auto;
+}
+
+/* Loading */
+
+#preloader  {
+	display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #2e2b2c;
+    z-index: 2147483647;
+    height: 100%;
+ }
+
+.preload-img{
+	background-image: url("../../images/preload.png");
+	background-position: center center;
+	background-repeat: no-repeat;
+	height: 352px;
+	width: 341px;
+	left: 50%;
+	top: 50%;
+	position: absolute;
+	margin: -176px 0 0 -170px;
+ }

@@ -1,0 +1,31 @@
+
+@font-face {
+	font-family: 'HudsonNY';
+	src: url('../../../fonts/HudsonNY.eot?#iefix') format('embedded-opentype'),
+	url('../../../fonts/HudsonNY.woff') format('woff'),
+	url('../../../fonts/HudsonNY.ttf')  format('truetype'),
+	url('../../../fonts/HudsonNY.svg#HudsonNY') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'HudsonNYSerif';
+	src: url('../../../fonts/HudsonNYSerif.eot?#iefix') format('embedded-opentype'),
+	url('../../../fonts/HudsonNYSerif.woff') format('woff'),
+	url('../../../fonts/HudsonNYSerif.ttf')  format('truetype'),
+	url('../../../fonts/HudsonNYSerif.svg#HudsonNYSerif') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'LetterGothicStd-Bold';
+	src: url('../../../fonts/LetterGothicStd-Bold.eot?#iefix') format('embedded-opentype'),
+	url('../../../fonts/LetterGothicStd-Bold.otf')  format('opentype'),
+	url('../../../fonts/LetterGothicStd-Bold.woff') format('woff'),
+	url('../../../fonts/LetterGothicStd-Bold.ttf')  format('truetype'),
+	url('../../../fonts/LetterGothicStd-Bold.svg#LetterGothicStd-Bold') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}

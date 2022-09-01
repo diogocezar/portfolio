@@ -1,0 +1,346 @@
+#reciple{
+    padding-top:80px;
+}
+
+.bg-bloqued{
+    background: -moz-linear-gradient(left,  rgba(238,96,180,1) 0%, rgba(255,255,255,0) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left,  rgba(238,96,180,1) 0%,rgba(255,255,255,0) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right,  rgba(238,96,180,1) 0%,rgba(255,255,255,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ee60b4', endColorstr='#00ffffff',GradientType=1 ); /* IE6-9 */
+    position: fixed;
+    top: 0;
+    left: 50%;
+    width: 50%;
+    z-index: -1;
+    height: 100%;
+}
+
+.blur{
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    left: 50%;
+    background-image: url("../../images/shared/shared_bg_dirty.jpg");
+    background-repeat: repeat;
+    opacity: 0.95;
+    z-index: 1;
+}
+
+.blur-in{
+    background: -moz-linear-gradient(left,  rgba(238,96,180,1) 0%, rgba(255,255,255,0) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left,  rgba(238,96,180,1) 0%,rgba(255,255,255,0) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right,  rgba(238,96,180,1) 0%,rgba(255,255,255,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ee60b4', endColorstr='#00ffffff',GradientType=1 ); /* IE6-9 */
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.container-blocked{
+    position: relative;
+    float:left;
+    width: 50%;
+    padding: 60px;
+}
+
+@media screen and (max-width: 1835px){
+    .container-blocked{
+        width: 55%;
+    }
+}
+
+@media screen and (max-width: 1675px){
+    .container-blocked{
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 1570px){
+    .container-blocked{
+        width: 65%;
+    }
+}
+
+@media screen and (max-width: 1420px){
+    .container-blocked{
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 1325px){
+    .container-blocked{
+        width: 75%;
+    }
+}
+
+@media screen and (max-width: 1245px){
+    .container-blocked{
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 1150px){
+    .container-blocked{
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 1030px){
+    .container-blocked{
+        width: 100%;
+    }
+}
+
+.container-blocked h3{
+    margin-top: 50px;
+    font-family: 'brandon_black';
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 30pt;
+    letter-spacing: 5pt;
+    margin-bottom: 30px;
+}
+
+.container-blocked h4{
+    margin-top: 10px;
+    font-family: 'brandon_black';
+    color: #fff;
+    font-size: 10pt;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 20pt;
+    letter-spacing: 4pt;
+    margin-bottom: 30px;
+}
+
+.container-blocked button{
+    min-height: 48px;
+    background: transparent;
+    border-radius: 0px;
+    border: 2px solid #fff;
+    padding: 8px;
+    position: relative;
+    float: left;
+    width: 45%;
+    color: #fff;
+    margin-bottom: 10px;
+    font-family: 'brandon_black';
+    letter-spacing: 3pt;
+    text-transform: uppercase;
+    line-height: 22pt;
+    text-align: center;
+    -webkit-transition: all 0.1s ease-in-out;
+    -moz-transition: all 0.1s ease-in-out;
+    -ms-transition: all 0.1s ease-in-out;
+    -o-transition: all 0.1s ease-in-out;
+    transition: all 0.1s ease-in-out;
+    font-size: 8pt;
+    padding-top: 10px;
+}
+
+@media screen and (max-width: 925px){
+    .container-blocked button{
+        font-size: 8pt;
+    }
+}
+
+.button-facebook{
+    float:left!important;
+}
+
+.button-email{
+    float:right!important;
+}
+
+.button-juntos{
+    width: 100%!important;
+}
+
+.icon-email{
+    background-image: url("../../images/bloqueada/bloqueada_email.png");
+    height: 24px;
+    width: 25px;
+    position: relative;
+    float: left;
+    margin-right: 5px;
+    margin-top: 2px;
+    margin-left: 7px;
+}
+
+.icon-facebook{
+    background-image: url("../../images/bloqueada/bloqueada_facebook.png");
+    height: 24px;
+    width: 25px;
+    position: relative;
+    float: left;
+    margin-right: 5px;
+    margin-top: 1px;
+    margin-left: 6px;
+}
+
+.icon-twitter{
+    background-image: url("../../images/bloqueada/bloqueada_twitter.png");
+    height: 24px;
+    width: 25px;
+    position: relative;
+    float: left;
+    margin-right: 5px;
+    margin-top: 1px;
+    margin-left: 6px;
+}
+
+.icon-whats{
+    background-image: url("../../images/bloqueada/bloqueada_whats.png");
+    height: 24px;
+    width: 25px;
+    position: relative;
+    float: left;
+    margin-right: 5px;
+    margin-top: 2px;
+    margin-left: 6px;
+}
+
+.blocked-dots{
+    position: relative;
+    float: left;
+    width: 100%;
+    background-image: url("../../images/bloqueada/bloqueada_line.png");
+    height: 14px;
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+
+/* Responsive Adjustments */
+
+@media screen and (min-width: 991px){
+    .blur-mobile, .blur-in-mobile{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 991px){
+    .header-mobile{
+        margin-bottom: 50px;
+    }
+    .bg-bloqued, .blur, .blur-in{
+        display: none;
+    }
+    .blur-mobile{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        left: 0;
+        background-image: url("../../images/shared/shared_bg_dirty.jpg");
+        background-repeat: repeat;
+        opacity: 0.95;
+        z-index: 1;
+    }
+
+    .blur-in-mobile{
+        background: -moz-linear-gradient(top,  rgba(238,96,180,1) 0%, rgba(255,255,255,0) 100%); /* FF3.6-15 */
+        background: -webkit-linear-gradient(top,  rgba(238,96,180,1) 0%,rgba(255,255,255,0) 100%); /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(to bottom,  rgba(238,96,180,1) 0%,rgba(255,255,255,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ee60b4', endColorstr='#00ffffff',GradientType=1 ); /* IE6-9 */
+        position: absolute;
+        width: 100%;
+        height: 100%;
+    }
+}
+
+/* Extra Small */
+
+@media screen and (max-width: 430px){
+    .container-blocked {
+        padding:15px;
+    }
+    .header-mobile{
+        margin-bottom: 20px;
+    }
+}
+
+/* Bg Color */
+
+@media screen and (max-width: 1245px){
+    .bg-bloqued, .blur-in{
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ee60b4+0,ee60b4+49,ffffff+100&amp;1+0,1+85,0+100 */
+    background: -moz-linear-gradient(left,  rgba(238,96,180,1) 0%, rgba(238,96,180,1) 49%, rgba(250,208,233,1) 85%, rgba(255,255,255,0) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left,  rgba(238,96,180,1) 0%,rgba(238,96,180,1) 49%,rgba(250,208,233,1) 85%,rgba(255,255,255,0) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right,  rgba(238,96,180,1) 0%,rgba(238,96,180,1) 49%,rgba(250,208,233,1) 85%,rgba(255,255,255,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ee60b4', endColorstr='#00ffffff',GradientType=1 ); /* IE6-9 */
+    }
+}
+
+/* Reponsive 320 Adjustments */
+
+@media screen and (max-width: 370px){
+    .container-blocked h3 {
+        margin-top: 25px;
+        font-family: 'brandon_black';
+        color: #fff;
+        text-transform: uppercase;
+        text-align: center;
+        line-height: 30pt;
+        letter-spacing: 4pt;
+        margin-bottom: 30px;
+        font-size: 13pt;
+        line-height: 19pt;
+    }
+    .container-blocked h4{
+        margin-top: 0px;
+        font-family: 'brandon_black';
+        color: #fff;
+        font-size: 8pt;
+        text-transform: uppercase;
+        text-align: center;
+        line-height: 20pt;
+        letter-spacing: 2pt;
+        margin-bottom: 17px;
+    }
+    .icon-facebook {
+        background-image: url("../../images/bloqueada/bloqueada_facebook.png");
+        height: 24px;
+        width: 25px;
+        position: relative;
+        float: left;
+        margin-right: 2px;
+        margin-top: 1px;
+        margin-left: -3px;
+    }
+    .container-blocked button {
+        min-height: 48px;
+        background: transparent;
+        border-radius: 0px;
+        border: 2px solid #fff;
+        padding: 8px;
+        position: relative;
+        float: left;
+        width: 45%;
+        color: #fff;
+        margin-bottom: 10px;
+        font-family: 'brandon_black';
+        letter-spacing: 1pt;
+        text-transform: uppercase;
+        line-height: 22pt;
+        text-align: left;
+        -webkit-transition: all 0.1s ease-in-out;
+        -moz-transition: all 0.1s ease-in-out;
+        -ms-transition: all 0.1s ease-in-out;
+        -o-transition: all 0.1s ease-in-out;
+        transition: all 0.1s ease-in-out;
+        font-size: 8pt!important;
+        padding-top: 9px;
+    }
+    .blocked-dots {
+        position: relative;
+        float: left;
+        width: 100%;
+        background-image: url("../../images/bloqueada/bloqueada_line.png");
+        height: 14px;
+        margin-top: 10px;
+        margin-bottom: 15px;
+    }
+    .button-juntos{
+        text-align: center!important;
+    }
+}

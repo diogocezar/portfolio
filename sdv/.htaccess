@@ -1,0 +1,14 @@
+<IfModule mod_rewrite.c>
+	RewriteEngine On
+	RewriteRule ^/?$ ./index.php [NC,L]
+	RewriteRule ^enviar?$ ./enviar.php [NC,L]
+	RewriteRule ^receita?$ ./receita.php [NC,L]
+	RewriteRule ^parceiro1?$ ./parceiro1.php [NC,L]
+	RewriteRule ^parceiro2?$ ./parceiro2.php [NC,L]
+	RewriteRule ^bloqueada?$ ./bloqueada.php [NC,L]
+	RewriteRule ^erro?$ ./erro.php [NC,L]
+	RewriteRule ^sucesso?$ ./sucesso.php [NC,L]
+	RewriteRule ^email?$ ./email.php [NC,L]
+	RewriteRule ^template?$ ./template.php [NC,L]
+	RewriteRule ^share?$ ./share.php [NC,L]
+</IfModule>

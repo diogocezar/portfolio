@@ -1,0 +1,134 @@
+body{
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 0!important;
+    background-image: url("../../images/landing/intro_bg.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #fff;
+    z-index: 3;
+
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: center top;
+    background-attachment: fixed;
+}
+
+#landing{
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 0!important;
+    background-image: url("../../images/landing/intro_bg.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    z-index: 3;
+}
+
+.img-landing{
+	margin-top: 80px;
+}
+
+.img-yes{
+	float:right;
+	margin-right: 15px;
+}
+
+.img-no{
+	float:left;
+	margin-left: 15px;
+}
+
+.col-age{
+	margin-top: 10px;
+	margin-bottom: 15px;
+}
+
+footer{
+	margin-top: 40px;
+    margin-bottom: 20px;
+	color:#a5a5a5;
+	text-transform: uppercase;
+}
+
+footer p{
+    font-family: 'co_headlineregular';
+	margin: 0 0 3px;
+}
+
+#terms{
+    z-index: 999999;
+    display: none;
+    background-color: rgba(0, 0, 0, 0.8);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0!important;
+    margin-top: 20px;
+}
+
+#politics{
+    z-index: 999999;
+    display: none;
+    background-color: rgba(0, 0, 0, 0.8);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0!important;
+    margin-top: 20px;
+}
+
+.btn-close{
+    background: url("../../images/shared/close.png") center 0;
+    height: 50px;
+    width: 50px;
+    top: 45px;
+    left: 100%;
+    margin-left: -100px;
+    cursor: pointer;
+    z-index: 9999999;
+    position: fixed;
+    display: none;
+}
+
+.content-popup{
+	margin-top: 80px;
+	color: #949494!important;
+}
+
+.content-popup p{
+    line-height: 27px;
+    margin-bottom: 23px;
+}
+
+h2{
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+/* Responsive */
+
+@media screen and (max-width: 1366px) and (max-height: 768px){
+    .img-landing{
+        margin-top: 30px;
+        max-height: 280px;
+    }
+}
+
+@media screen and (max-width: 1200px) and (max-height: 800px){
+    .img-landing{
+        margin-top: 50px;
+        max-height: 340px;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .img-landing{
+        margin-top: 20px;
+    }
+}

@@ -1,0 +1,227 @@
+.bg-pink{
+    background-color: #ec008c;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    top: 0!important;
+    opacity: 0.9;
+    display: none;
+}
+
+.box-relative{
+    float:left;
+    position: relative;
+    width: 100%;
+    height: 50px;
+}
+
+.btn-close{
+    background: url("../../images/shared/close_light.png") center 0;
+    height: 45px;
+    width: 45px;
+    left: 100%;
+    margin-left: -180px;
+    cursor: pointer;
+    z-index: 9999999;
+    position: absolute;
+    display: none;
+}
+
+@media screen and (max-width: 991px){
+    .btn-close{
+        margin-left: -60px;
+    }
+}
+
+.content-popup{
+    margin-top: 220px;
+    color: #949494!important;
+}
+
+#share h2{
+    font-family: 'bebas_neuebold';
+    font-size: 34pt;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 10pt;
+    margin-bottom: 50px;
+}
+
+input[type="text"]{
+    font-family: 'brandon_light';
+    width: 100%;
+    margin-top: 30px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    margin-bottom: 0px;
+    padding: 5px;
+    padding-bottom: 15px;
+    text-align: center;
+    letter-spacing: 3pt;
+    font-size: 18pt;
+    line-height: 40px;
+    background: transparent;
+    -webkit-transition: all 0.1s ease-in-out;
+    -moz-transition: all 0.1s ease-in-out;
+    -ms-transition: all 0.1s ease-in-out;
+    -o-transition: all 0.1s ease-in-out;
+    transition: all 0.1s ease-in-out;
+    color:#fff;
+}
+
+.btn-send{
+    font-family: 'brandon_bold';
+    width: 100%;
+    border: 2px solid #fff;
+    min-height: 53px;
+    padding: 5px;
+    padding-top: 14px;
+    padding-bottom: 13px;
+    margin-top: 50px;
+    text-align: center;
+    color: #fff;
+    letter-spacing: 3pt;
+    font-size: 10pt;
+    background-color: transparent;
+    -webkit-transition: all 0.1s ease-in-out;
+    -moz-transition: all 0.1s ease-in-out;
+    -ms-transition: all 0.1s ease-in-out;
+    -o-transition: all 0.1s ease-in-out;
+    transition: all 0.1s ease-in-out;
+}
+
+.btn-send:hover {
+    background-color: transparent;
+    color: #FFF;
+}
+
+@media screen and (max-width: 375px){
+    .btn-send{
+        font-size: 10pt;
+    }
+}
+
+/* Place Holder */
+
+input[type="text"]::-webkit-input-placeholder{
+   color: #fff;
+}
+
+input[type="text"]::-moz-placeholder{
+   color: #fff;
+}
+
+input[type="text"]::-moz-placeholder{
+   color: #fff;
+}
+
+input[type="text"]:-ms-input-placeholder{
+   color: #fff;
+}
+
+.box-share{
+    position: relative;
+    float:left;
+    width: 100%;
+}
+
+.box-share-absolute{
+    position: absolute;
+    left:50%;
+    width: 600px;
+    margin-left: -300px;
+    margin-bottom: 15px;
+}
+
+@media screen and (max-width: 640px){
+    .box-share-absolute{
+        position: absolute;
+        left:50%;
+        width: 400px;
+        margin-left: -200px;
+    }
+}
+
+@media screen and (max-width: 426px){
+    .box-share-absolute{
+        position: absolute;
+        left:50%;
+        width: 280px;
+        margin-left: -140px;
+    }
+}
+
+.share-button{
+    min-height: 48px;
+    background: transparent;
+    border-radius: 0px;
+    border: 2px solid #fff;
+    padding: 8px;
+    position: relative;
+    float: left;
+    width: 100%;
+    color: #fff;
+    margin-bottom: 10px;
+    font-family: 'brandon_black';
+    letter-spacing: 3pt;
+    text-transform: uppercase;
+    line-height: 22pt;
+    text-align: center;
+    -webkit-transition: all 0.1s ease-in-out;
+    -moz-transition: all 0.1s ease-in-out;
+    -ms-transition: all 0.1s ease-in-out;
+    -o-transition: all 0.1s ease-in-out;
+    transition: all 0.1s ease-in-out;
+    font-size: 8pt;
+    padding-top: 10px;
+    padding-left: 84px!important;
+}
+
+.icon-email-share{
+    background-image: url("../../images/bloqueada/bloqueada_email.png");
+    height: 24px;
+    width: 25px;
+    position: absolute;
+    margin-left: -35px;
+    top: 15px;
+}
+
+.icon-facebook-share{
+    background-image: url("../../images/bloqueada/bloqueada_facebook.png");
+    height: 24px;
+    width: 25px;
+    position: absolute;
+    margin-left: -35px;
+    top: 15px;
+}
+
+.icon-twitter-share{
+    background-image: url("../../images/bloqueada/bloqueada_twitter.png");
+    height: 24px;
+    width: 25px;
+    position: absolute;
+    margin-left: -35px;
+    top: 15px;
+}
+
+
+
+@media screen and (max-width: 640px){
+    .content-popup {
+        margin-top: 85px;
+    }
+}
+
+@media screen and (max-width: 426px){
+    #share h2 {
+        font-family: 'bebas_neuebold';
+        font-size: 26pt;
+        color: #fff;
+        text-align: center;
+        text-transform: uppercase;
+        letter-spacing: 6pt;
+        margin-bottom: 25px;
+        margin-top: 65px;
+    }
+}

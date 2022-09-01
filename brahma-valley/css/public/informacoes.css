@@ -1,0 +1,256 @@
+a{
+    color:#fff!important;
+}
+
+#informacoes{
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 0!important;
+    background-image: url("../../images/informacoes/informacoes_faq.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top:80px;
+}
+
+.container-info{
+    padding-top:30px;
+}
+
+#informacoes h2{
+    color:#fff;
+    margin-bottom: 10px;
+    font-size: 24pt;
+    text-align: left;
+    font-weight: normal;
+}
+
+#informacoes h3{
+    color:#fff;
+    margin-bottom: 10px;
+    font-size: 11pt;
+    text-align: left;
+    font-weight: normal;
+}
+
+#informacoes h4{
+    color:#fff;
+    margin-bottom: 20px;
+    font-size: 17pt;
+    text-align: left;
+    font-weight: normal;
+}
+
+.full-width{
+    width: 100%;
+    position: relative;
+    float:left;
+    z-index: 9999999;
+    margin-top: 35px;
+    margin-bottom: 30px;
+}
+
+.infos-absolute{
+    left: 50%;
+    margin-left: -140px;
+    text-align: center;
+    position: relative;
+    width: 280px!important;
+    display: block;
+}
+
+.btn-compre{
+    left: 50%;
+    margin-left: -140px;
+    text-align: center;
+    position: relative;
+    width: 280px!important;
+    display: block;
+    background-color: #e43c25;
+    border-radius: 5px;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 10px;
+    font-size: 16pt;
+    font-weight: bold;
+}
+
+.tab{
+    text-align: center;
+    position: relative;
+    border-radius: 3px;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 11pt;
+    display: block;
+    float: left;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 15px;
+    padding-bottom: 13px;
+    margin-top: 3px;
+    font-family: 'co_headlineregular';
+    letter-spacing: 1px;
+}
+
+.actived{
+    background-color: #e43c25!important;
+}
+
+.tab-start{
+    background-color: #969696;
+    border-radius: 5px 0 0 5px;
+}
+
+.tab-end{
+    background-color: #969696;
+    border-radius: 0 5px 5px 0;
+}
+
+.tab-border{
+    border-left:1px solid #cbcbcb;
+}
+
+.faq h4{
+    clear:both;
+}
+
+.faq p{
+    color:#fff;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.content-faq{
+    color:#fff;
+    text-align: left;
+}
+
+.content-faq p{
+}
+
+.content-faq ul{
+    list-style: none;
+}
+
+.content-faq ol li h3{
+    margin-left: 15px;
+    text-transform: uppercase;
+    font-size: 12pt!important;
+    text-align: left!important;
+}
+
+.content-faq ol li h4{
+    margin-left: 15px;
+    text-transform: uppercase;
+    font-size: 10pt!important;
+}
+
+.option-faq p a{
+    color: #fff;
+    margin-bottom: 10px;
+    font-size: 17pt;
+    text-align: left;
+    font-weight: normal;
+}
+
+.spacer-faq{
+    position: relative;
+    float:left;
+    width: 100%;
+    height: 15px;
+}
+
+/* Form */
+
+input{
+    border-radius: 0px!important;
+    line-height: 30px;
+}
+
+textarea{
+    border-radius: 0px!important;
+}
+
+label{
+    color:#fff;
+    width: 100%;
+    text-align:left!important;
+}
+
+button{
+    text-align: center;
+    position: relative;
+    display: block;
+    background-color: #e43c25!important;
+    border:none!important;
+    border-radius: 5px;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 10px;
+    font-size: 16pt;
+    font-weight: bold;
+    position: relative;
+    float: left;
+    margin-right: 11px;
+}
+
+.btn-infos{
+    position: relative;
+    float: left;
+    color: #fff;
+    line-height: 48px;
+}
+
+.btn-enviar{
+    font-weight: bold;
+    padding:15px;
+    transition: all 0.5s ease 0s!important;
+}
+
+.btn-enviar:hover{
+    background-color: #A93525!important;
+}
+
+#p11 ol li p{
+    margin-left: 15px;
+    text-align: left!important;
+}
+
+#p11 ol li h4{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: left!important;
+}
+
+#p13 h4{
+    margin-left: 0px;
+    margin-bottom: 5px;
+    text-align: left!important;
+}
+
+/* Responsive */
+
+@media screen and (max-width: 991px){
+    .infos-absolute {
+        left: 0px!important;
+        margin-left: 0px!important;
+        width: 100%!important;
+        text-align: center;
+        margin-top: 55px;
+    }
+    #informacoes h4, #informacoes h3{
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 540px){
+    .tab{
+        width: 100%!important;
+        border-radius: 5px 5px 5px 5px!important;
+    }
+    .tab-border{
+        border:none!important;
+    }
+}

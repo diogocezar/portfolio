@@ -1,0 +1,169 @@
+/* Login Cadastro */
+
+#login-cadastro{
+	margin-top: 100px;
+	background-color: #f0f5f6;
+	padding-bottom: 100px;
+}
+
+#login-cadastro h2{
+	text-align: center;
+	text-transform: none;
+	margin-top: 100px;
+	margin-bottom: 10px;
+	font-family: 'VWHeadlineOT-Black';
+	font-size: 54pt;
+}
+
+#login-cadastro .row-form{
+	margin-top: 30px;
+}
+
+#login-cadastro h3{
+	text-align: left;
+	text-transform: none;
+	font-family: 'VWHeadlineOT-Book';
+	font-size: 18pt;
+	color: #cbd3d4;
+	width: 100%;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #cbd3d4;
+	margin-bottom: 20px;
+}
+
+#login-cadastro .esqueci-minha-senha{
+	position: absolute;
+	margin-top: -20px;
+	right: 0;
+	margin-right: 16px;
+}
+
+#login-cadastro .esqueci-minha-senha a{
+	color: #48b1eb;
+}
+
+#login-cadastro .esqueci-minha-senha a:hover{
+	text-decoration: underline;
+	color: #48b1eb;
+}
+
+#login-cadastro .retornar-ao-login{
+	position: absolute;
+    bottom: 0;
+    margin-bottom: 13px;
+    left: 0;
+    margin-left: 16px;
+}
+
+#login-cadastro .retornar-ao-login a{
+	color: #48b1eb;
+}
+
+#login-cadastro .retornar-ao-login a:hover{
+	text-decoration: underline;
+	color: #48b1eb;
+}
+
+#login-cadastro .msg-error-esqueci {
+    display: none;
+    color: #d2463c;
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+
+#login-cadastro .msg-error-login {
+    display: none;
+    color: #d2463c;
+    margin-bottom: 15px;
+    position: relative;
+    float: left;
+    width: 65%;
+}
+
+#login-cadastro .msg-error-cadastro {
+    display: none;
+    color: #d2463c;
+    margin-bottom: 15px;
+    position: relative;
+    float: left;
+    width: 65%;
+}
+
+#login-cadastro .msg-ok-esqueci {
+	display: none;
+    font-size: 12pt;
+    color: #000;
+    margin-bottom: 48px;
+    line-height: 12pt;
+    margin-top: 52px;
+    font-family: 'VWHeadlineOT-Semibold';
+}
+
+#login-cadastro .btn-internal{
+	margin-top: 50px;
+}
+
+#login-cadastro .help-block{
+	color: #d2463c;
+	position: absolute;
+	top: 100px;
+}
+
+#login-cadastro .vw-form{
+	margin-bottom: 10px;
+}
+
+#login-cadastro .vw-check {
+    position: relative;
+    float: left;
+    width: 120px;
+    margin: 0;
+    margin-top: 23px!important;
+}
+
+/* Ajustes Responsivos */
+
+@media screen and (max-width: 1366px){
+    #login-cadastro {
+        margin-top: 70px;
+    }
+}
+
+@media screen and (max-width: 1024px){
+	#login-cadastro {
+		margin-top: 50px;
+		padding-bottom: 15px;
+	}
+	#login-cadastro h2 {
+		margin-top: 60px;
+	    font-size: 34pt;
+	}
+}
+
+@media screen and (max-width: 768px){
+	#login-cadastro .help-block {
+	    color: #d2463c;
+	    position: relative;
+	    float: left;
+	    width: 100%;
+	    margin-bottom: 0px;
+	    top: 0px;
+	}
+	#login-cadastro .btn-internal {
+	    margin-top: 20px;
+	}
+	#login-cadastro h2 {
+		text-align: center;
+		text-transform: none;
+		margin-top: 50px;
+		margin-bottom: 20px;
+		font-family: 'VWHeadlineOT-Black';
+		font-size: 23pt;
+	}
+	#login-cadastro .help-block small{
+		font-size: 75%;
+	}
+	#login-cadastro .col-spacer-mobile{
+		margin-bottom: 20px;
+	}
+}
